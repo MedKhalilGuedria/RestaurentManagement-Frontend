@@ -1,0 +1,734 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--================ Basic page needs ================-->
+    <title>Yummi | Single Blog Post Page Without Sidebar</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--================ Mobile specific metas ================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================ Google web fonts ================-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      rel="stylesheet">
+    <!--================ Vendor CSS ================-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css">
+    <!--================ Theme CSS ================-->
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--================ Vendor JS ================-->
+  </head>
+  <body>
+    <div class="mad-preloader"></div>
+    <div id="mad-page-wrapper" class="mad-page-wrapper">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <button type="button" class="arcticmodal-close"><i class="material-icons">close</i></button>
+          <h4 class="mad-title">Search</h4>
+          <!--================ Search Form ================-->
+          <form role="search" method="get" class="mad-searchform">
+          <input type="text" name="s" placeholder="Type your keyword here">
+          <button type="submit" class="btn btn-style-3"><i class="material-icons">search</i></button>
+        </form>
+          <!--================ End of Search Form ================-->
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+      <header id="mad-header" class="mad-header">
+        <div class="mad-pre-header">
+          <div class="mad-our-info">
+            <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013</span></div>
+            <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+          </div>
+          <div class="mad-quick-links">
+            <a href="#">Gift Cards</a> <span>|</span> <a href="#">Track Your Order</a> <span>|</span> <a href="#">Login/Register</a>
+          </div>
+        </div>
+        <div class="mad-header-section--sticky-xl">
+          <div class="mad-header-items">
+            <div class="mad-header-item">
+              <a href="index.html" class="mad-logo"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!--================ Navigation ================-->
+            <nav class="mad-navigation-container">
+              <ul class="mad-navigation mad-navigation--vertical-sm">
+                <li class="menu-item menu-item-has-children"><a href="#">Home</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Main Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_2.html">Full Width Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_3.html">Center Menu Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_4.html">Lightweight Home</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Menu</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li><a href="menu_v1.html">Menu v1</a>
+                    </li>
+                    <li><a href="menu_v2.html">Menu v2</a>
+                    </li>
+                    <li><a href="menu_v3.html">Menu v3</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="pages_about_v1.html">About v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_about_v2.html">About v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_open_table.html">Reservations Via Open Table</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_booking.html">Reservations Via Booked -
+                      Appointment Booking Plugin</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li><a href="gallery_grid.html">Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_grid_full.html">Full Width Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry.html">Masonry Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry_full.html">Full Width Masonry Gallery</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item"><a href="pages_order.html">Track Order</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v1.html">Contact v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v2.html">Contact v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_coming_soon.html">Coming Soon Page</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_404.html">404 Page</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children mega-menu"><a href="#">Elements</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Elements <span class="no-title">1</span></a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_accordions_toggles.html">Accordions
+                            &amp; Toggles</a></li>
+                        <li class="menu-item"><a href="elements_alert_boxes_buttons.html">Alert Boxes
+                            &amp; Buttons</a></li>
+                        <li class="menu-item"><a href="elements_call_to_actions.html">Call to Actions</a></li>
+                        <li class="menu-item"><a href="elements_counters.html">Counters & Countdowns</a></li>
+                        <li class="menu-item"><a href="elements_icon_boxes.html">Icon With Text</a></li>
+                        <li class="menu-item"><a href="elements_image_boxes.html">Image With Text</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title no-title">Elements 2</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_pricing.html">Pricing Tables</a></li>
+                        <li class="menu-item"><a href="elements_tables.html">Tables & Progress Bars</a></li>
+                        <li class="menu-item"><a href="elements_tabs.html">Tabs & Tour Sections</a></li>
+                        <li class="menu-item"><a href="elements_team.html">Team Members & Awards</a></li>
+                        <li class="menu-item"><a href="elements_testimonials.html">Testimonials</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Typography</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_dropcaps_blockquotes.html">Dropcaps
+                            &amp; Blockquotes</a></li>
+                        <li class="menu-item"><a href="elements_headings_and_paragraphs.html">Headings
+                            &amp; Paragraphs</a></li>
+                        <li class="menu-item"><a href="elements_highlights_tooltips_listings.html">Highlights, Tooltips and
+                            Listings</a></li>
+                        <li class="menu-item"><a href="../index.html">LTR Version</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Header Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Header v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Header v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Header v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Header v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Footer Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Footer v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Footer v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Footer v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Footer v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Shop</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="shop_front_sidebar.html">Shop With Right Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_front.html">Shop Without Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_create.html">Create Your Own Pizza</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_single.html">Single Product Page</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_checkout.html">Cart/Checkout</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_account.html">My Account</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children current-menu-item"><a href="#">Blog</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#">Classic Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_classic_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_classic.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="blog_masonry.html">Masonry Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_masonry_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_masonry.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children current-menu-item"><a href="#">Single Blog Post</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_single_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item current-menu-item"><a href="blog_single.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+              </ul>
+            </nav>
+            <!--================ End of Navigation ================-->
+            <div class="mad-header-item">
+              <div class="mad-our-info type-2">
+                <div class="mad-info">
+                  <i class="material-icons-outlined">call</i>
+                  <div class="mad-info-content">
+                    <span>Call us for ordering</span>
+                    <div class="mad-info-title">+1 800 559 6580</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mad-header-item">
+              <div class="mad-actions">
+                <div class="mad-item">
+                  <a href="#" class="mad-item-link" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                  <a href="#" class="mad-item-link"><i class="material-icons">person_outline</i></a>
+                  <div class="mad-dropdown">
+                    <a href="#" type="button" class="mad-item-link mad-dropdown-title"><i
+                        class="material-icons-outlined">shopping_cart</i><span class="quantity">3</span></a>
+                    <div class="shopping-cart mad-dropdown-element">
+                      <div class="mad-products mad-product-small">
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img1.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Chicken Burger</a></h6>
+                              <span class="mad-product-price">1 × $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img2.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Affogato</a></h6>
+                              <span class="mad-product-price">1 x $4.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img3.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Conchiglia
+                              Verdura.</a></h6>
+                              <span class="mad-product-price">1 x $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                      </div>
+                      <div class="sc-footer">
+                        <div class="subtotal">Subtotal: <span class="mad-price">34.97</span></div>
+                        <a href="#" class="btn btn-small btn-style-3 w-100"><i class="material-icons">arrow_right_alt</i><span>Checkout</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mad-item">
+                  <a href="#" class="btn btn-small"><span>Order Online</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--================ End of Header ================-->
+      <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb">
+        <div class="container">
+          <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> / <span><a href="index.html">Blog</a></span> / <span>Single Blog Post Page Without Sidebar</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content no-pd">
+        <div class="container">
+          <div class="mad-section">
+            <div class="row justify-content-center">
+              <main id="main" class="col-xl-9">
+                <div class="content-element-13">
+                  <div class="mad-entities with-sidebar type-3 with-big-date with-img single-entity">
+                    <!--================ Entity ================-->
+                    <article class="mad-entity">
+                      <div class="mad-entity-media content-element-3">
+                        <a href="#"><img src="images/954x616_img1.jpg" alt=""></a>
+                      </div>
+                      <div class="mad-entity-body">
+                        <span class="mad-entity-date">28<span>Sep</span></span>
+                        <div class="mad-entity-content">
+                          <div class="mad-entity-tags">
+                            <span class="mad-in">News</span>
+                            <a href="#">cook</a>
+                            <a href="#">cuisine</a>
+                            <a href="#">pasta</a>
+                          </div>
+                          <h2 class="mad-entity-title"><a href="#" class="mad-link">Sed in Lacus ut Enim</a></h2>
+                        </div>
+                      </div>
+                      <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                      elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Vestibulum libero
+                      nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi.
+                      Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae.</p>
+                      <div class="content-element-5">
+                        <div class="content-element-4">
+                          <div class="mad-testimonials type-2">
+                            <!--================ Testimonial ================-->
+                            <div class="mad-testimonial-bg style-2">
+                              <div class="mad-testimonial">
+                                <div class="mad-testimonial-info">
+                                  <blockquote>
+                                    <p>“Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                                    elit.”</p>
+                                  </blockquote>
+                                </div>
+                                <div class="mad-author">
+                                  <div class="mad-author-info">
+                                    <cite>Rebecca Johnson, CA, USA</cite>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                            <!--================ End of Testimonial ================-->
+                          </div>
+                          <p>Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit agna,endrerit sit amet, tincidunt ac,
+                          viverra sed, nulla. Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque vitae, pede.</p>
+                          <p>Donec eget tellus non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est.
+                          Proin dictum elementum velit. Fusce euismod consequat ante. Lorem ipsum dolor sit amet, consectetuer
+                          accumsan nulla vel diam.</p>
+                        </div>
+                        <p>Mauris accumsan nulla vel diam. Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet,
+                        euismod in, auctor ut, ligula. Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis quis, lobortis dignissim,
+                        pulvinar ac, lorem. Vestibulum sed ante. Donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error.</p>
+                      </div>
+                      <div class="content-element-3">
+                        <h5>Sed in Lacus ut Enim</h5>
+                        <p>Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                        elit. Aenean auctor wisi et urna. Aliquam erat volutpat. Duis ac turpis. Integer rutrum ante eu lacus. Vestibulum libero
+                        nisl, porta vel, scelerisque eget, malesuada at, neque. Vivamus eget nibh.</p>
+                        <div class="row">
+                          <div class="col-sm-4">
+                            <div><a href="#" class="mad-img"><img src="images/296x208_img1.jpg" alt=""></a></div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div><a href="#" class="mad-img"><img src="images/296x208_img2.jpg" alt=""></a></div>
+                          </div>
+                          <div class="col-sm-4">
+                            <div><a href="#" class="mad-img"><img src="images/296x208_img3.jpg" alt=""></a></div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="content-element-4">
+                        <p>Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum ante ipsum primis in faucibus orci luctus et
+                        ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. Ut pharetra augue nec augue. Nam elit
+                        agna,endrerit sit amet, tincidunt ac, viverra sed, nulla. Donec porta diam eu massa.</p>
+                      </div>
+                      <div class="mad-entity-footer">
+                        <div class="mad-share-wrap"><span>Share:</span>
+                          <div class="mad-social-icons style-2 size-small">
+                            <ul>
+                              <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                              <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                              <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                            </ul>
+                          </div>
+                        </div>
+                      </div>
+                    </article>
+                    <!--================ End of Entity ================-->
+                  </div>
+                  <div class="mad-page-nav mad-entities type-3 mad-entity-hr">
+                    <div class="mad-nav-left">
+                      <article class="mad-entity">
+                        <a href="#" class="mad-entity-media">
+                          <img src="images/88x88_img24.jpg" alt="">
+                        </a>
+                        <div class="mad-entity-body">
+                          <div class="mad-entity-tags">
+                            <span>September 28, 2021</span>
+                          </div>
+                          <h5 class="mad-entity-title"><a href="#" class="mad-link">Magni Dolores Eos</a></h5>
+                        </div>
+                      </article>
+                    </div>
+                    <div class="mad-nav-right">
+                      <article class="mad-entity">
+                        <div class="mad-entity-body">
+                          <div class="mad-entity-tags">
+                            <span>October 28, 2021</span>
+                          </div>
+                          <h5 class="mad-entity-title"><a href="#" class="mad-link">Qui Ratione <br>
+                              Voluptatem</a></h5>
+                        </div>
+                        <a href="#" class="mad-entity-media">
+                          <img src="images/88x88_img25.jpg" alt="">
+                        </a>
+                      </article>
+                    </div>
+                  </div>
+                </div>
+                <div class="content-element-13">
+                  <h3>Related Posts</h3>
+                  <!--================ Image Boxes ================-->
+                  <div class="mad-entities type-3 with-img no-border with-sidebar item-col-2 type-3">
+                    <div class="mad-col">
+                      <!--================ Entity ================-->
+                      <article class="mad-entity">
+                        <div class="mad-entity-media">
+                          <div class="mad-responsive-iframe">
+                            <iframe
+                              src="https://www.youtube.com/embed/cxB4ACaaR4I?rel=0&amp;showinfo=0&amp;autohide=2&amp;controls=0&amp;playlist=J2Y_ld0KL-4&amp;enablejsapi=1"></iframe>
+                          </div>
+                        </div>
+                        <div class="mad-entity-body">
+                          <div class="mad-entity-content">
+                            <div class="mad-entity-tags">
+                              <span>September 21, 2021</span>
+                              <span class="mad-in">Events</span>
+                            </div>
+                            <h5 class="mad-entity-title"><a href="#" class="mad-link">Aliquam Erat Volutpat</a></h5>
+                            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,auctor ut, ligula....</p>
+                            <div class="mad-entity-footer">
+                              <a href="#" class="mad-read-more size-2">Read More</a>
+                            </div>
+                          </div>
+                        </div>
+                      </article>
+                      <!--================ End of Entity ================-->
+                    </div>
+                    <div class="mad-col">
+                      <!--================ Entity ================-->
+                      <article class="mad-entity">
+                        <div class="mad-testimonials type-2">
+                          <!--================ Testimonial ================-->
+                          <div class="mad-testimonial-bg">
+                            <div class="mad-testimonial">
+                              <div class="mad-testimonial-info">
+                                <blockquote>
+                                  <p>“Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                                  elit.”</p>
+                                </blockquote>
+                              </div>
+                              <div class="mad-author">
+                                <div class="mad-author-info">
+                                  <cite>Rebecca Johnson, CA, USA</cite>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <!--================ End of Testimonial ================-->
+                        </div>
+                      </article>
+                      <!--================ End of Entity ================-->
+                    </div>
+                  </div>
+                  <!--================ End of Image Boxes ================-->
+                </div>
+                <div class="content-element-13">
+                  <h3>Comments</h3>
+                  <ol class="comments-list">
+                    <li class="comment comment-has-children">
+                      <div class="comment-body clearfix">
+                        <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo1.jpg" alt="Caroline Beek"></a></div>
+                        <div class="comment-author-info">
+                          <cite class="fn">Caroline Beek</cite>
+                          <div class="comment-meta">
+                            <time datetime="2021-10-17">October 17, 2021 at 2:41 pm</time>
+                            <a href="#" class="mad-text-link"><i class="material-icons">reply</i> Reply</a>
+                          </div>
+                          <div class="comment-content">
+                            <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,
+                              auctor ut, ligula.
+                              Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis. </p>
+                          </div>
+                        </div>
+                      </div>
+                      <ul class="children">
+                        <li class="comment">
+                          <div class="comment-body">
+                            <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo2.jpg" alt="Admin"></a></div>
+                            <div class="comment-author-info">
+                              <cite class="fn">Admin</cite>
+                              <div class="comment-meta mad-columns-aligner--edges-md align-items-center">
+                                <time datetime="2021-10-17">October 17, 2020 at 2:41 pm</time><a href="#"
+                                  class="mad-text-link color-2"><i class="material-icons">reply</i> Reply</a>
+                              </div>
+                              <div class="comment-content">
+                                <p>Vestibulum sed ante. Donec sagittis euismod purus.</p>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="comment">
+                      <div class="comment-body">
+                        <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo3.jpg" alt="Bred Anderson"></a></div>
+                        <div class="comment-author-info">
+                          <cite class="fn">Bred Anderson</cite>
+                          <div class="comment-meta mad-columns-aligner--edges-md align-items-center">
+                            <time datetime="2021-10-21">October 21, 2020 at 2:41 pm</time><a href="#" class="mad-text-link color-2"><i
+                                class="material-icons">reply</i> Reply</a>
+                          </div>
+                          <div class="comment-content">
+                            <p>Donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                              doloremque
+                              laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore.</p>
+                          </div>
+                        </div>
+                      </div>
+                    </li>
+                  </ol>
+                </div>
+                <div class="content-element-13">
+                  <h3>Leave a Reply</h3>
+                  <p>Your email address will not be published.</p>
+                  <form class="mad-contact-form type-2">
+                    <div class="mad-col">
+                      <textarea rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="mad-col">
+                      <input type="text" placeholder="Name">
+                    </div>
+                    <div class="mad-col">
+                      <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="mad-col">
+                      <input type="text" placeholder="Website (optional)">
+                    </div>
+                    <div class="mad-col">
+                      <div class="mad-form-footer">
+                        <div style="display: block;" class="mad-toggled-fields">
+                          <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                          <label for="checkbox-1" class="mad-label-checkbox">Save my name, email, and website in this browser for the next
+                            time I comment.</label>
+                        </div>
+                        <button class="btn btn-big btn-style-3">Submit</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </main>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="mad-footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-4 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <div class="content-element-5">
+                    <a href="#" class="mad-logo"><img src="images/logo2.png" alt=""></a>
+                  </div>
+                  <div class="mad-our-info vr-type">
+                    <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013 <br> <a href="#" class="mad-link mad-dir">Get Directions</a></span></div>
+                    <div class="mad-info"><i class="material-icons-outlined">call</i> <span>+1 800 559 6580</span></div>
+                    <div class="mad-info"><i class="material-icons">mail_outline</i> <a href="#" class="mad-link">mail@companyname.com</a></div>
+                    <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Menu</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">Pizza</a></li>
+                      <li><a href="#" class="mad-link">Pasta</a></li>
+                      <li><a href="#" class="mad-link">Burgers</a></li>
+                      <li><a href="#" class="mad-link">Sides</a></li>
+                      <li><a href="#" class="mad-link">Desserts</a></li>
+                      <li><a href="#" class="mad-link">Drinks</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Company</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">About</a></li>
+                      <li><a href="#" class="mad-link">The Menu</a></li>
+                      <li><a href="#" class="mad-link">Testimonials</a></li>
+                      <li><a href="#" class="mad-link">Blog</a></li>
+                      <li><a href="#" class="mad-link">Shop</a></li>
+                      <li><a href="#" class="mad-link">Gift Cards</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Support</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">How to Order</a></li>
+                      <li><a href="#" class="mad-link">Where We Deliver</a></li>
+                      <li><a href="#" class="mad-link">FAQs</a></li>
+                      <li><a href="#" class="mad-link">Contact</a></li>
+                      <li><a href="#" class="mad-link">Terms and Contiotions</a></li>
+                      <li><a href="#" class="mad-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ End of Footer row ================-->
+        <div class="mad-footer-bottom">
+          <div class="container">
+            <p class="copyrights">Copyright © 2021 Yummi.
+              All Rights Reserved.</p>
+            <div class="mad-social-icons">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+    <script src="vendors/modernizr.js"></script>
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="vendors/jquery.easing.1.3.min.js"></script>
+    <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+    <script src="vendors/monkeysan.jquery.nav.1.0.min.js"></script>
+    <script src="vendors/monkeysan.validator.min.js"></script>
+    <script src="vendors/handlebars-v4.0.5.min.js"></script>
+    <script src="vendors/mad.customselect.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/tweetie/tweetie.min.js"></script>
+    <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="vendors/retina.min.js"></script>
+    <script src="js/modules/mad.alert-box.min.js"></script>
+    <script src="js/modules/mad.newsletter-form.min.js"></script>
+    <script src="js/modules/mad.sticky-header-section.min.js"></script>
+    <script src="js/mad.app.js"></script>
+  </body>
+</html>

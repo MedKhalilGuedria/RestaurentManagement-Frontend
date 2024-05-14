@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--================ Basic page needs ================-->
+    <title>Yummi | Highlights, Tooltips and Listings</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--================ Mobile specific metas ================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================ Google web fonts ================-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900"
+      rel="stylesheet">
+    <!--================ Vendor CSS ================-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.css">
+    <link rel="stylesheet" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css">
+    <!--================ Theme CSS ================-->
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--================ Vendor JS ================-->
+  </head>
+  <body>
+    <div class="mad-preloader"></div>
+    <div id="mad-page-wrapper" class="mad-page-wrapper">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <button type="button" class="arcticmodal-close"><i class="material-icons">close</i></button>
+          <h4 class="mad-title">Search</h4>
+          <!--================ Search Form ================-->
+          <form role="search" method="get" class="mad-searchform">
+          <input type="text" name="s" placeholder="Type your keyword here">
+          <button type="submit" class="btn btn-style-3"><i class="material-icons">search</i></button>
+        </form>
+          <!--================ End of Search Form ================-->
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+      <header id="mad-header" class="mad-header">
+        <div class="mad-pre-header">
+          <div class="mad-our-info">
+            <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013</span></div>
+            <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+          </div>
+          <div class="mad-quick-links">
+            <a href="#">Gift Cards</a> <span>|</span> <a href="#">Track Your Order</a> <span>|</span> <a href="#">Login/Register</a>
+          </div>
+        </div>
+        <div class="mad-header-section--sticky-xl">
+          <div class="mad-header-items">
+            <div class="mad-header-item">
+              <a href="index.html" class="mad-logo"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!--================ Navigation ================-->
+            <nav class="mad-navigation-container">
+              <ul class="mad-navigation mad-navigation--vertical-sm">
+                <li class="menu-item menu-item-has-children"><a href="#">Home</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Main Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_2.html">Full Width Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_3.html">Center Menu Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_4.html">Lightweight Home</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Menu</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li><a href="menu_v1.html">Menu v1</a>
+                    </li>
+                    <li><a href="menu_v2.html">Menu v2</a>
+                    </li>
+                    <li><a href="menu_v3.html">Menu v3</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="pages_about_v1.html">About v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_about_v2.html">About v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_open_table.html">Reservations Via Open Table</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_booking.html">Reservations Via Booked -
+                      Appointment Booking Plugin</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li><a href="gallery_grid.html">Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_grid_full.html">Full Width Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry.html">Masonry Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry_full.html">Full Width Masonry Gallery</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item"><a href="pages_order.html">Track Order</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v1.html">Contact v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v2.html">Contact v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_coming_soon.html">Coming Soon Page</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_404.html">404 Page</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children current-menu-item mega-menu"><a href="#">Elements</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Elements <span class="no-title">1</span></a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_accordions_toggles.html">Accordions
+                            &amp; Toggles</a></li>
+                        <li class="menu-item"><a href="elements_alert_boxes_buttons.html">Alert Boxes
+                            &amp; Buttons</a></li>
+                        <li class="menu-item"><a href="elements_call_to_actions.html">Call to Actions</a></li>
+                        <li class="menu-item"><a href="elements_counters.html">Counters & Countdowns</a></li>
+                        <li class="menu-item"><a href="elements_icon_boxes.html">Icon With Text</a></li>
+                        <li class="menu-item"><a href="elements_image_boxes.html">Image With Text</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title no-title">Elements 2</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_pricing.html">Pricing Tables</a></li>
+                        <li class="menu-item"><a href="elements_tables.html">Tables & Progress Bars</a></li>
+                        <li class="menu-item"><a href="elements_tabs.html">Tabs & Tour Sections</a></li>
+                        <li class="menu-item"><a href="elements_team.html">Team Members & Awards</a></li>
+                        <li class="menu-item"><a href="elements_testimonials.html">Testimonials</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Typography</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_dropcaps_blockquotes.html">Dropcaps
+                            &amp; Blockquotes</a></li>
+                        <li class="menu-item"><a href="elements_headings_and_paragraphs.html">Headings
+                            &amp; Paragraphs</a></li>
+                        <li class="menu-item current-menu-item"><a href="elements_highlights_tooltips_listings.html">Highlights, Tooltips and
+                            Listings</a></li>
+                        <li class="menu-item"><a href="../index.html">LTR Version</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Header Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Header v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Header v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Header v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Header v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Footer Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Footer v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Footer v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Footer v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Footer v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Shop</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="shop_front_sidebar.html">Shop With Right Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_front.html">Shop Without Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_create.html">Create Your Own Pizza</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_single.html">Single Product Page</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_checkout.html">Cart/Checkout</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_account.html">My Account</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#">Classic Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_classic_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_classic.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="blog_masonry.html">Masonry Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_masonry_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_masonry.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Single Blog Post</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_single_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_single.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+              </ul>
+            </nav>
+            <!--================ End of Navigation ================-->
+            <div class="mad-header-item">
+              <div class="mad-our-info type-2">
+                <div class="mad-info">
+                  <i class="material-icons-outlined">call</i>
+                  <div class="mad-info-content">
+                    <span>Call us for ordering</span>
+                    <div class="mad-info-title">+1 800 559 6580</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mad-header-item">
+              <div class="mad-actions">
+                <div class="mad-item">
+                  <a href="#" class="mad-item-link" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                  <a href="#" class="mad-item-link"><i class="material-icons">person_outline</i></a>
+                  <div class="mad-dropdown">
+                    <a href="#" type="button" class="mad-item-link mad-dropdown-title"><i
+                        class="material-icons-outlined">shopping_cart</i><span class="quantity">3</span></a>
+                    <div class="shopping-cart mad-dropdown-element">
+                      <div class="mad-products mad-product-small">
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img1.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Chicken Burger</a></h6>
+                              <span class="mad-product-price">1 × $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img2.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Affogato</a></h6>
+                              <span class="mad-product-price">1 x $4.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img3.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Conchiglia
+                              Verdura.</a></h6>
+                              <span class="mad-product-price">1 x $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                      </div>
+                      <div class="sc-footer">
+                        <div class="subtotal">Subtotal: <span class="mad-price">34.97</span></div>
+                        <a href="#" class="btn btn-small btn-style-3 w-100"><i class="material-icons">arrow_right_alt</i><span>Checkout</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mad-item">
+                  <a href="#" class="btn btn-small"><span>Order Online</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--================ End of Header ================-->
+      <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb with-bg-image" data-bg-image-src="images/1920x392_bg1.jpg">
+        <div class="container">
+          <h1 class="mad-page-title">Highlights, Tooltips and Listings</h1>
+          <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> / <span>Highlights, Tooltips and Listings</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content no-pb">
+        <div class="container">
+          <div class="content-element-18">
+            <div class="row vr-size-2">
+              <section class="col-lg">
+                <h2 class="mad-page-title">Highlights</h2>
+                <p>Vivamus eget nibh. Etiam cursus leo vel metus. Nulla facilisi. Aenean nec eros. Vestibulum
+                  ante ipsum primis in faucibus
+                  orci luctus et ultrices posuere cubilia Curae; Suspendisse sollicitudin velit sed leo. <mark>Ut pharetra augue
+                    nec augue.</mark> Nam
+                  elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla.
+                </p>
+                <p>Donec porta diam eu massa. Quisque diam lorem, interdum vitae, dapibus ac, scelerisque
+                  vitae, pede. Donec eget tellus
+                  non erat lacinia fermentum. Donec in velit vel ipsum auctor pulvinar. Vestibulum iaculis lacinia est. Proin
+                  dictum
+                  elementum velit.
+                  Fusce euismod consequat ante.</p>
+              </section>
+              <section class="col-lg">
+                <h2 class="mad-page-title">Tooltips</h2>
+                <p>Vivamus eget nibh. Etiam cursus leo vel metus. &nbsp;<span
+                    data-tooltip="Example of a top tooltip">Nulla
+                    facilisi.</span>&nbsp; Aenean nec eros. Vestibulum ante et urna. Aliquam erat
+                  volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, &nbsp;<span
+                    data-tooltip="Example of a left tooltip"
+                    data-tooltip-config="{&quot;tooltipPosition&quot;: &quot;left&quot;, &quot;animationIn&quot;: &quot;fadeInLeft&quot;, &quot;animationOut&quot;: &quot;fadeOutLeft&quot;}">consecvtetuer</span>&nbsp;,
+                  adipiscing elit. Mauris
+                  fermentum dictum magna. Nam
+                  elit agna, endrerit sit amet, tincidunt ac, viverra sed, nulla.</p>
+                <p>Vivamus eget nibh. Ut tellus dolor, dapibus eget, &nbsp;<span
+                    data-tooltip="Example of a right tooltip"
+                    data-tooltip-config="{&quot;tooltipPosition&quot;: &quot;right&quot;, &quot;animationIn&quot;: &quot;fadeInRight&quot;, &quot;animationOut&quot;: &quot;fadeOutRight&quot;}">elementum
+                    vel</span>&nbsp;, cursus eleifend, elit. Vestibulum ante et
+                  urna. &nbsp;<span data-tooltip="Example of a bottom tooltip"
+                    data-tooltip-config="{&quot;tooltipPosition&quot;: &quot;bottom&quot;, &quot;animationIn&quot;: &quot;fadeInUp&quot;, &quot;animationOut&quot;: &quot;fadeOutDown&quot;}">Aliquam
+                    erat </span>&nbsp; volutpat. Duis ac turpis. Integer rutrum ante eu lacus.Vestibulum libero nisl, porta
+                  vel, scelerisque
+                  eget, malesuada at, neque. Proin dictum elementum velit.
+                  Fusce euismod consequat ante.</p>
+              </section>
+            </div>
+          </div>
+          <div class="content-element-18">
+            <h2 class="mad-page-title">Listings</h2>
+            <div class="content-element-7">
+              <div class="row mad-text-big">
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons">arrow_forward</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons">arrow_forward</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons">arrow_forward</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons">arrow_forward</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons">arrow_forward</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons">check</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons">check</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons">check</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons">check</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons">check</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">flag</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">flag</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">flag</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">flag</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">flag</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">info</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">info</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">info</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">info</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">info</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">add_box</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">add_box</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">add_box</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">add_box</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">add_box</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">access_time</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">message</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">mail</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">person</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">home</i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="content-element-7">
+              <div class="row mad-text-big">
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons">arrow_forward</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons">arrow_forward</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons">arrow_forward</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons">arrow_forward</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons">arrow_forward</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons">check</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons">check</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons">check</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons">check</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons">check</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">flag</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">flag</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">flag</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">flag</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">flag</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">info</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">info</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">info</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">info</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">info</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">add_box</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">add_box</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">add_box</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">add_box</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">add_box</i></li>
+                    </ul>
+                  </div>
+                </div>
+                <div class="col-xl col-lg-4 col-sm-6">
+                  <div class="mad-entity-content style-2">
+                    <ul class="mad-list--icon">
+                      <li>Vivamus eget nibh<i class="icon material-icons-outlined">access_time</i>
+                        <ul class="mad-list--icon">
+                          <li>Etiam cursus leo<i class="icon material-icons-outlined">message</i></li>
+                          <li>Nulla facilisi<i class="icon material-icons-outlined">mail</i></li>
+                        </ul>
+                      </li>
+                      <li>Aenean nec eros<i class="icon material-icons-outlined">person</i></li>
+                      <li>Vestibulum ante<i class="icon material-icons-outlined">home</i></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="mad-section very-small-size mad-section--stretched mad-colorizer--scheme-color-2">
+            <div class="row align-items-center">
+              <div class="col-xl-6">
+                <h4 class="mad-page-title">Receive Great Offers and Event Updates</h4>
+              </div>
+              <div class="col-xl-6">
+                <form class="mad-newsletter-form one-line">
+                  <input type="email" name="email" placeholder="Enter Your Email Address">
+                  <button type="submit" class="btn btn-style-3 btn-small"><span>Sign Up</span></button>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="mad-footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-4 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <div class="content-element-5">
+                    <a href="#" class="mad-logo"><img src="images/logo2.png" alt=""></a>
+                  </div>
+                  <div class="mad-our-info vr-type">
+                    <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013 <br> <a href="#" class="mad-link mad-dir">Get Directions</a></span></div>
+                    <div class="mad-info"><i class="material-icons-outlined">call</i> <span>+1 800 559 6580</span></div>
+                    <div class="mad-info"><i class="material-icons">mail_outline</i> <a href="#" class="mad-link">mail@companyname.com</a></div>
+                    <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Menu</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">Pizza</a></li>
+                      <li><a href="#" class="mad-link">Pasta</a></li>
+                      <li><a href="#" class="mad-link">Burgers</a></li>
+                      <li><a href="#" class="mad-link">Sides</a></li>
+                      <li><a href="#" class="mad-link">Desserts</a></li>
+                      <li><a href="#" class="mad-link">Drinks</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Company</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">About</a></li>
+                      <li><a href="#" class="mad-link">The Menu</a></li>
+                      <li><a href="#" class="mad-link">Testimonials</a></li>
+                      <li><a href="#" class="mad-link">Blog</a></li>
+                      <li><a href="#" class="mad-link">Shop</a></li>
+                      <li><a href="#" class="mad-link">Gift Cards</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Support</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">How to Order</a></li>
+                      <li><a href="#" class="mad-link">Where We Deliver</a></li>
+                      <li><a href="#" class="mad-link">FAQs</a></li>
+                      <li><a href="#" class="mad-link">Contact</a></li>
+                      <li><a href="#" class="mad-link">Terms and Contiotions</a></li>
+                      <li><a href="#" class="mad-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ End of Footer row ================-->
+        <div class="mad-footer-bottom">
+          <div class="container">
+            <p class="copyrights">Copyright © 2021 Yummi.
+              All Rights Reserved.</p>
+            <div class="mad-social-icons">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+    <script src="vendors/modernizr.js"></script>
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="vendors/jquery.easing.1.3.min.js"></script>
+    <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+    <script src="vendors/monkeysan.accordion.js"></script>
+    <script src="vendors/monkeysan.jquery.nav.1.0.min.js"></script>
+    <script src="vendors/monkeysan.validator.min.js"></script>
+    <script src="vendors/handlebars-v4.0.5.min.js"></script>
+    <script src="vendors/monkeysan.validator.min.js"></script>
+    <script src="vendors/monkeysan-tooltip/monkeysan-jquery-tooltip.js"></script>
+    <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="vendors/retina.min.js"></script>
+    <script src="js/modules/mad.alert-box.min.js"></script>
+    <script src="js/modules/mad.newsletter-form.min.js"></script>
+    <script src="js/modules/mad.sticky-header-section.min.js"></script>
+    <script src="js/mad.app.js"></script>
+  </body>
+</html>

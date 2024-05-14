@@ -1,0 +1,754 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--================ Basic page needs ================-->
+    <title>Yummi | Checkout</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--================ Mobile specific metas ================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================ Google web fonts ================-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      rel="stylesheet">
+    <!--================ Vendor CSS ================-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css">
+    <!--================ Theme CSS ================-->
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--================ Vendor JS ================-->
+  </head>
+  <body>
+    <div class="mad-preloader"></div>
+    <div id="mad-page-wrapper" class="mad-page-wrapper">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <button type="button" class="arcticmodal-close"><i class="material-icons">close</i></button>
+          <h4 class="mad-title">Search</h4>
+          <!--================ Search Form ================-->
+          <form role="search" method="get" class="mad-searchform">
+          <input type="text" name="s" placeholder="Type your keyword here">
+          <button type="submit" class="btn btn-style-3"><i class="material-icons">search</i></button>
+        </form>
+          <!--================ End of Search Form ================-->
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+      <header id="mad-header" class="mad-header">
+        <div class="mad-pre-header">
+          <div class="mad-our-info">
+            <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013</span></div>
+            <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+          </div>
+          <div class="mad-quick-links">
+            <a href="#">Gift Cards</a> <span>|</span> <a href="#">Track Your Order</a> <span>|</span> <a href="#">Login/Register</a>
+          </div>
+        </div>
+        <div class="mad-header-section--sticky-xl">
+          <div class="mad-header-items">
+            <div class="mad-header-item">
+              <a href="index.html" class="mad-logo"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!--================ Navigation ================-->
+            <nav class="mad-navigation-container">
+              <ul class="mad-navigation mad-navigation--vertical-sm">
+                <li class="menu-item menu-item-has-children"><a href="#">Home</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Main Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_2.html">Full Width Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_3.html">Center Menu Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_4.html">Lightweight Home</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Menu</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li><a href="menu_v1.html">Menu v1</a>
+                    </li>
+                    <li><a href="menu_v2.html">Menu v2</a>
+                    </li>
+                    <li><a href="menu_v3.html">Menu v3</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="pages_about_v1.html">About v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_about_v2.html">About v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_open_table.html">Reservations Via Open Table</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_booking.html">Reservations Via Booked -
+                      Appointment Booking Plugin</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li><a href="gallery_grid.html">Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_grid_full.html">Full Width Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry.html">Masonry Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry_full.html">Full Width Masonry Gallery</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item"><a href="pages_order.html">Track Order</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v1.html">Contact v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v2.html">Contact v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_coming_soon.html">Coming Soon Page</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_404.html">404 Page</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children mega-menu"><a href="#">Elements</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Elements <span class="no-title">1</span></a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_accordions_toggles.html">Accordions
+                            &amp; Toggles</a></li>
+                        <li class="menu-item"><a href="elements_alert_boxes_buttons.html">Alert Boxes
+                            &amp; Buttons</a></li>
+                        <li class="menu-item"><a href="elements_call_to_actions.html">Call to Actions</a></li>
+                        <li class="menu-item"><a href="elements_counters.html">Counters & Countdowns</a></li>
+                        <li class="menu-item"><a href="elements_icon_boxes.html">Icon With Text</a></li>
+                        <li class="menu-item"><a href="elements_image_boxes.html">Image With Text</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title no-title">Elements 2</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_pricing.html">Pricing Tables</a></li>
+                        <li class="menu-item"><a href="elements_tables.html">Tables & Progress Bars</a></li>
+                        <li class="menu-item"><a href="elements_tabs.html">Tabs & Tour Sections</a></li>
+                        <li class="menu-item"><a href="elements_team.html">Team Members & Awards</a></li>
+                        <li class="menu-item"><a href="elements_testimonials.html">Testimonials</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Typography</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_dropcaps_blockquotes.html">Dropcaps
+                            &amp; Blockquotes</a></li>
+                        <li class="menu-item"><a href="elements_headings_and_paragraphs.html">Headings
+                            &amp; Paragraphs</a></li>
+                        <li class="menu-item"><a href="elements_highlights_tooltips_listings.html">Highlights, Tooltips and
+                            Listings</a></li>
+                        <li class="menu-item"><a href="../index.html">LTR Version</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Header Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Header v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Header v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Header v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Header v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Footer Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Footer v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Footer v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Footer v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Footer v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children current-menu-item"><a href="#">Shop</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="shop_front_sidebar.html">Shop With Right Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_front.html">Shop Without Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_create.html">Create Your Own Pizza</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_single.html">Single Product Page</a>
+                    </li>
+                    <li class="menu-item current-menu-item"><a href="shop_checkout.html">Cart/Checkout</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_account.html">My Account</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#">Classic Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_classic_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_classic.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="blog_masonry.html">Masonry Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_masonry_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_masonry.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Single Blog Post</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_single_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_single.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+              </ul>
+            </nav>
+            <!--================ End of Navigation ================-->
+            <div class="mad-header-item">
+              <div class="mad-our-info type-2">
+                <div class="mad-info">
+                  <i class="material-icons-outlined">call</i>
+                  <div class="mad-info-content">
+                    <span>Call us for ordering</span>
+                    <div class="mad-info-title">+1 800 559 6580</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mad-header-item">
+              <div class="mad-actions">
+                <div class="mad-item">
+                  <a href="#" class="mad-item-link" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                  <a href="#" class="mad-item-link"><i class="material-icons">person_outline</i></a>
+                  <div class="mad-dropdown">
+                    <a href="#" type="button" class="mad-item-link mad-dropdown-title"><i
+                        class="material-icons-outlined">shopping_cart</i><span class="quantity">3</span></a>
+                    <div class="shopping-cart mad-dropdown-element">
+                      <div class="mad-products mad-product-small">
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img1.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Chicken Burger</a></h6>
+                              <span class="mad-product-price">1 × $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img2.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Affogato</a></h6>
+                              <span class="mad-product-price">1 x $4.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img3.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Conchiglia
+                              Verdura.</a></h6>
+                              <span class="mad-product-price">1 x $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                      </div>
+                      <div class="sc-footer">
+                        <div class="subtotal">Subtotal: <span class="mad-price">34.97</span></div>
+                        <a href="#" class="btn btn-small btn-style-3 w-100"><i class="material-icons">arrow_right_alt</i><span>Checkout</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mad-item">
+                  <a href="#" class="btn btn-small"><span>Order Online</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--================ End of Header ================-->
+      <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb with-bg-image" data-bg-image-src="images/1920x392_bg1.jpg">
+        <div class="container">
+          <h1 class="mad-page-title">Checkout</h1>
+          <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> / <span>Checkout</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content no-pd">
+        <div class="container">
+          <div class="mad-section">
+            <div class="content-element-15">
+              <p class="mad-text-small mad-text-color-3">Required fields are followed by <span class="req">*</span></p>
+              <!--================ Horizontal Table ================-->
+              <div class="mad-table-wrap shop-cart-form">
+                <table class="mad-table--responsive-md">
+                  <thead>
+                    <tr class="bg">
+                      <th>Product</th>
+                      <th>Price</th>
+                      <th>Quantity</th>
+                      <th>Actions</th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    <tr class="mad-product-item">
+                      <td data-cell-title="Product">
+                        <div class="mad-products mad-product-small">
+                          <div class="mad-col">
+                            <!-- Product -->
+                            <div class="mad-product">
+                              <a href="#" class="mad-product-image">
+                                <img src="images/72x72_img1.jpg" alt="">
+                              </a>
+                              <!-- product-info -->
+                              <div class="mad-product-description">
+                                <h5 class="mad-product-title"><a href="#">Chicken Burger</a></h5>
+                                <p>Chicken breasts, breaded with dried buttermilk, flour and eggs, homemade herbal...</p>
+                              </div>
+                              <!--/ product-info -->
+                            </div>
+                            <!-- End of Product -->
+                          </div>
+                        </div>
+                      </td>
+                      <td data-cell-title="Price"><span class="mad-product-price">14.99</span></td>
+                      <td data-cell-title="Quantity">
+                        <div class="quantity">
+                          <input type="text" value="1" readonly="">
+                          <button type="button" class="qty-plus"><i class="licon-plus"></i></button>
+                          <button type="button" class="qty-minus"><i class="licon-minus"></i></button>
+                        </div>
+                      </td>
+                      <td class="shopping-cart-full" data-cell-title="Actions"><button class="mad-close-item">Remove</button>
+                      </td>
+                    </tr>
+                    <tr class="mad-product-item">
+                      <td data-cell-title="Product">
+                        <div class="mad-products mad-product-small">
+                          <div class="mad-col">
+                            <!-- Product -->
+                            <div class="mad-product">
+                              <a href="#" class="mad-product-image">
+                                <img src="images/72x72_img2.jpg" alt="">
+                              </a>
+                              <!-- product-info -->
+                              <div class="mad-product-description">
+                                <h5 class="mad-product-title"><a href="#">Affogato</a></h5>
+                                <p>An affogato is a coffee based dessert. We offer two scoops of Italian gelato with...</p>
+                              </div>
+                              <!--/ product-info -->
+                            </div>
+                            <!-- End of Product -->
+                          </div>
+                        </div>
+                      </td>
+                      <td data-cell-title="Price"><span class="mad-product-price">4.99</span></td>
+                      <td data-cell-title="Quantity">
+                        <div class="quantity">
+                          <input type="text" value="1" readonly="">
+                          <button type="button" class="qty-plus"><i class="licon-plus"></i></button>
+                          <button type="button" class="qty-minus"><i class="licon-minus"></i></button>
+                        </div>
+                      </td>
+                      <td class="shopping-cart-full" data-cell-title="Actions"><button class="mad-close-item">Remove</button>
+                      </td>
+                    </tr>
+                    <tr class="mad-product-item">
+                      <td data-cell-title="Product">
+                        <div class="mad-products mad-product-small">
+                          <div class="mad-col">
+                            <!-- Product -->
+                            <div class="mad-product">
+                              <a href="#" class="mad-product-image">
+                                <img src="images/72x72_img3.jpg" alt="">
+                              </a>
+                              <!-- product-info -->
+                              <div class="mad-product-description">
+                                <h5 class="mad-product-title"><a href="#">Conchiglia Verdura</a></h5>
+                                <p>Giant pasta shells stuffed with spinach, ricotta, parmesan, basil and cooked in ...</p>
+                              </div>
+                              <!--/ product-info -->
+                            </div>
+                            <!-- End of Product -->
+                          </div>
+                        </div>
+                      </td>
+                      <td data-cell-title="Price"><span class="mad-product-price">14.99</span></td>
+                      <td data-cell-title="Quantity">
+                        <div class="quantity">
+                          <input type="text" value="1" readonly="">
+                          <button type="button" class="qty-plus"><i class="licon-plus"></i></button>
+                          <button type="button" class="qty-minus"><i class="licon-minus"></i></button>
+                        </div>
+                      </td>
+                      <td class="shopping-cart-full" data-cell-title="Actions"><button class="mad-close-item">Remove</button>
+                      </td>
+                    </tr>
+                  </tbody>
+                </table>
+              </div>
+              <!--================ End of Horizontal Table ================-->
+            </div>
+            <div class="content-element-15">
+              <div class="row vr-size-5">
+                <div class="col-lg-6">
+                  <h3>I Would Like My Order</h3>
+                  <div class="content-element-15">
+                    <div class="form-control content-element-4">
+                      <p>Your email address will not be published.</p>
+                      <div style="display: block;" class="mad-toggled-fields">
+                        <input type="radio" name="radio-1" id="radio-1" checked="checked">
+                        <label for="radio-1" class="mad-label-radio">Delivered</label>
+                        <input type="radio" name="radio-1" id="radio-2">
+                        <label for="radio-2" class="mad-label-radio">For collection</label>
+                      </div>
+                    </div>
+                    <form class="mad-contact-form type-2 var2">
+                      <div class="mad-col">
+                        <label>Address Type <span>*</span></label>
+                        <div class="mad-custom-select">
+                          <select data-default-text=" ">
+                            <option>Option 1</option>
+                            <option>Option 2</option>
+                            <option>Option 3</option>
+                          </select>
+                        </div>
+                      </div>
+                      <div class="mad-col">
+                        <label>Street <span>*</span></label>
+                        <input type="text" placeholder="Street">
+                      </div>
+                      <div class="mad-col">
+                        <label>Apt/Ste/Rm <span>*</span></label>
+                        <input type="text" placeholder="Apt/Ste/Rm">
+                      </div>
+                      <div class="mad-col">
+                        <label>Gate Code</label>
+                        <input type="text" placeholder="Gate Code">
+                      </div>
+                      <div class="mad-col">
+                        <label>Notes</label>
+                        <input type="text" placeholder="Notes">
+                      </div>
+                      <div class="mad-col">
+                        <label>When is it for?</label>
+                        <div class="form-control content-element-4">
+                          <div style="display: block;" class="mad-toggled-fields">
+                            <input type="radio" name="radio-3" id="radio-3" checked="checked">
+                            <label for="radio-3" class="mad-label-radio">ASAP, approx. 6:52 pm</label>
+                            <input type="radio" name="radio-3" id="radio-4">
+                            <label for="radio-4" class="mad-label-radio">Later (At a set time)</label>
+                          </div>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="content-element-15">
+                    <h3>Order Totals</h3>
+                    <div class="content-element-3">
+                      <div class="mad-table-wrap">
+                        <table class="mad-table mad-table--vertical">
+                          <tbody>
+                            <tr>
+                              <th>Subtotal</th>
+                              <td><span class="mad-product-price">34,97</span></td>
+                            </tr>
+                            <tr>
+                              <th>Delivery</th>
+                              <td><span class="mad-product-price">3,99</span></td>
+                            </tr>
+                            <tr>
+                              <th>Tax</th>
+                              <td><span class="mad-product-price">5,99</span></td>
+                            </tr>
+                          </tbody>
+                          <tfoot>
+                            <tr class="bg">
+                              <th>Total </th>
+                              <td><span class="mad-product-price">44,95</span></td>
+                            </tr>
+                          </tfoot>
+                        </table>
+                      </div>
+                    </div>
+                    <a href="#"><img src="images/paycards.jpg" alt=""></a>
+                  </div>
+                  <div class="content-element-15">
+                    <h3>Select Payment Method</h3>
+                    <div class="form-control payment-option">
+                      <div style="display: block;" class="mad-toggled-fields">
+                        <input type="radio" name="radio-5" id="radio-5" checked="checked">
+                        <label for="radio-5" class="mad-label-radio">
+                          Cash on delivery <br>
+                          <span>Pay with cash upon delivery.</span>
+                        </label>
+                        <input type="radio" name="radio-5" id="radio-6">
+                        <label for="radio-6" class="mad-label-radio">
+                          <div class="content-element">
+                            Pay via PayPal
+                          </div>
+                          <span><b>Note: PayPal Sandbox account </b> is a preferable way of testing PayPal payments. If for some
+                            reasons this method is not
+                            suitable for you, test the payments via card using <a href="#" class="mad-link color-2">randomly
+                              generated data</a>.</span>
+                        </label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-6">
+                  <div class="content-element-15">
+                    <h3>Billing Details</h3>
+                    <form class="mad-contact-form type-2 var2">
+                      <div class="mad-col">
+                        <label>Email Address <span>*</span></label>
+                        <input type="email" placeholder="Email Address">
+                      </div>
+                      <div class="mad-col">
+                        <label>Phone Number <span>*</span></label>
+                        <input type="tel" placeholder="Phone Number">
+                      </div>
+                      <div class="mad-col">
+                        <label>First Name <span>*</span></label>
+                        <input type="text" placeholder="First Name">
+                      </div>
+                      <div class="mad-col">
+                        <label>Last Name</label>
+                        <input type="text" placeholder="Last Name">
+                      </div>
+                    </form>
+                  </div>
+                  <div class="content-element-15">
+                    <h3>Create an Account (optional)</h3>
+                    <form class="mad-contact-form type-2 var2">
+                      <div class="mad-col">
+                        <label>Username</label>
+                        <input type="text" placeholder="Username">
+                        <span class="mad-text-small mad-text-color-3">The username you will use to log into your
+                          account.</span>
+                      </div>
+                      <div class="mad-col">
+                        <label>Password</label>
+                        <input type="text" placeholder="Password">
+                        <span class="mad-text-small mad-text-color-3">The password used to access your account.</span>
+                      </div>
+                      <div class="mad-col">
+                        <label>Password Again<br></label>
+                        <input type="text" placeholder="Confirm password">
+                        <span class="mad-text-small mad-text-color-3">Confirm your password.</span>
+                      </div>
+                    </form>
+                  </div>
+                  <div class="content-element-15">
+                    <h3>Additional Information</h3>
+                    <form class="mad-contact-form type-2 content-element-6">
+                      <div class="mad-col">
+                        <label>Order notes:</label>
+                        <textarea rows="9"></textarea>
+                      </div>
+                      <div class="mad-col">
+                        <div class="input-wrapper">
+                          <input type="checkbox" id="checkbox" name="checkbox">
+                          <label for="checkbox">Agree to Terms? <a href="#" class="mad-link color-2">Show Terms</a></label>
+                        </div>
+                      </div>
+                    </form>
+                    <div class="mad-total-section">
+                      <div class="mad-total-item">
+                        <span>Total:</span>
+                        <span class="mad-product-price">44.95</span>
+                      </div>
+                      <a href="#" class="btn btn-big btn-style-3">Purchase</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="mad-footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-4 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <div class="content-element-5">
+                    <a href="#" class="mad-logo"><img src="images/logo2.png" alt=""></a>
+                  </div>
+                  <div class="mad-our-info vr-type">
+                    <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013 <br> <a href="#" class="mad-link mad-dir">Get Directions</a></span></div>
+                    <div class="mad-info"><i class="material-icons-outlined">call</i> <span>+1 800 559 6580</span></div>
+                    <div class="mad-info"><i class="material-icons">mail_outline</i> <a href="#" class="mad-link">mail@companyname.com</a></div>
+                    <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Menu</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">Pizza</a></li>
+                      <li><a href="#" class="mad-link">Pasta</a></li>
+                      <li><a href="#" class="mad-link">Burgers</a></li>
+                      <li><a href="#" class="mad-link">Sides</a></li>
+                      <li><a href="#" class="mad-link">Desserts</a></li>
+                      <li><a href="#" class="mad-link">Drinks</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Company</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">About</a></li>
+                      <li><a href="#" class="mad-link">The Menu</a></li>
+                      <li><a href="#" class="mad-link">Testimonials</a></li>
+                      <li><a href="#" class="mad-link">Blog</a></li>
+                      <li><a href="#" class="mad-link">Shop</a></li>
+                      <li><a href="#" class="mad-link">Gift Cards</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Support</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">How to Order</a></li>
+                      <li><a href="#" class="mad-link">Where We Deliver</a></li>
+                      <li><a href="#" class="mad-link">FAQs</a></li>
+                      <li><a href="#" class="mad-link">Contact</a></li>
+                      <li><a href="#" class="mad-link">Terms and Contiotions</a></li>
+                      <li><a href="#" class="mad-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ End of Footer row ================-->
+        <div class="mad-footer-bottom">
+          <div class="container">
+            <p class="copyrights">Copyright © 2021 Yummi.
+              All Rights Reserved.</p>
+            <div class="mad-social-icons">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+    <script src="vendors/modernizr.js"></script>
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="vendors/jquery.easing.1.3.min.js"></script>
+    <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+    <script src="vendors/monkeysan.jquery.nav.1.0.min.js"></script>
+    <script src="vendors/monkeysan.validator.min.js"></script>
+    <script src="vendors/handlebars-v4.0.5.min.js"></script>
+    <script src="vendors/mad.customselect.js"></script>
+    <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="vendors/retina.min.js"></script>
+    <script src="js/modules/mad.alert-box.min.js"></script>
+    <script src="js/modules/mad.newsletter-form.min.js"></script>
+    <script src="js/modules/mad.sticky-header-section.min.js"></script>
+    <script src="js/mad.app.js"></script>
+  </body>
+</html>

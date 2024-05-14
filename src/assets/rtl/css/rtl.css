@@ -1,0 +1,1134 @@
+/* ------------------------------------------------
+
+        1. Default stylesheets                      
+
+------------------------------------------------ */
+
+body{
+    direction: rtl;
+    unicode-bidi: embed;
+}
+
+th,
+td,
+table,
+form{
+    text-align: right;
+}
+
+.rev_slider,
+.mad-half-section {
+    direction: ltr;
+}
+
+.rev_slider_wrapper .mad-actions {
+    direction: rtl;
+}
+
+/* ------------------------------------------------
+
+        2. General classes                      
+
+------------------------------------------------ */
+
+.align-right{
+    text-align: left;
+}
+
+.align-left{
+    text-align: right;
+}
+
+.f-right{
+    float: left;
+}
+
+.f-left{
+    float: right;
+}
+
+img.alignright{
+    float: left;
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+img.alignleft{
+    float: right;
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+th,
+td,
+table,
+form,
+[class*="table-type"] table tr > td, 
+[class*="table-type"] table tr > th,
+i {
+    text-align: right;
+}
+
+/* ------------------------------------------------
+
+        3. Main
+
+------------------------------------------------ */
+
+/* -------------------------- Header ------------------------- */
+
+/* main menu */
+
+.mad-navigation .sub-menu {
+    left: auto;
+    right: 0;
+}
+
+.mad-navigation .sub-menu .menu-item-has-children::after {
+    right: auto;
+    left: 0;
+    content: "keyboard_arrow_left";
+}
+
+.mad-navigation > li:not(.mega-menu) > .sub-menu {
+    left: auto;
+    right: -1rem;
+}
+
+.mad-navigation li:not(.mega-menu) .sub-menu .sub-menu:not(.mad-reverse) {
+    left: auto;
+    right: 100%;
+    margin-left: 0;
+    margin-right: 2.25rem;
+}
+
+.mad-navigation .sub-menu .menu-item-has-children {
+    padding-right: 0;
+    padding-left: 2.8rem;
+}
+
+.mad-navigation > li > a::after {
+    margin-left: 0;
+    margin-right: 0.625rem;
+}
+
+/* main menu end */
+
+.mad-header-item .mad-logo {
+    padding-right: 0;
+    padding-left: 3rem;
+}
+
+.mad-our-info .mad-info > i {
+    min-width: auto;
+    margin-left: 0.375rem;
+}
+
+.mad-actions .mad-item-link:not(.mad-dropdown-title):not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.625rem;
+}
+
+.mad-our-info.type-2 .mad-info i {
+    text-align: right;
+}
+
+/* ----------------------- End of Header --------------------- */
+
+/* ----------------------- Shortcodes ------------------------ */
+
+form.one-line.mad-newsletter-form input {
+    padding-right: 2rem;
+    padding-left: 6rem;
+}
+
+.mad-panels-title > button::after, .mad-panels-title > button::before {
+    left: auto;
+    right: 0;
+}
+
+.mad-panels-title > button {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-panels--style-2 .mad-panels-title > button {
+    padding-left: 2rem;
+    padding-right: 3.875rem;
+}
+
+.mad-alert-box-inner::before {
+    right: 2rem;
+    left: auto;
+}
+
+.mad-panels--style-2 .mad-panels-title > button::after, .mad-panels--style-2 .mad-panels-title > button::before {
+    left: auto;
+    right: 1.75rem;
+}
+
+.mad-alert-box-close {
+    right: auto;
+    left: 2rem;
+}
+
+.mad-alert-box-inner {
+    padding-right: 4.5rem;
+    padding-left: 3.75rem;
+}
+
+[class*="btn"] > i:not(:only-child):last-child {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.mad-read-more.big-size {
+    margin-right: 0;
+    margin-left: 2.5rem;
+}
+
+.mad-read-more.big-size .svg {
+    right: auto;
+    left: -4.5rem;
+}
+
+.calendar_wrap table tr td:not(:last-child) {
+    border-right: none;
+}
+
+.calendar_wrap table tr td:not(:last-child) {
+    border-left: 1px solid #f2e4df;
+}
+
+.shop-cart-form .mad-close-item:before,
+.shop-cart-form table tr td[data-cell-title="Actions"] .mad-link:before {
+    margin-right: 0;
+    margin-left: 6px;
+}
+
+.mad-icon-boxes.type-2 .mad-col:not(:last-child) .mad-icon-box:before {
+    right: auto;
+    left: 2rem;
+    transform: rotate(180deg);
+}
+
+.mad-icon-boxes.type-2 .mad-col:not(:last-child) .mad-icon-box.with-arrow-down:before {
+    left: auto;
+    right: 1.5rem;
+    transform: rotate(360deg);
+}
+
+.mad-icon-boxes.hr-type .mad-icon-box {
+    text-align: right;
+}
+
+[class*="form-col"].with-icon input {
+    padding-left: 2rem;
+    padding-right: 4.375rem;
+}
+
+[class*="form-col"].with-icon i {
+    left: auto;
+    right: 2.5rem;
+}
+
+.mad-widget.mad-categories .mad-widget-title {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-pricing-table-price {
+    margin-right: 0;
+    margin-left: 2rem;
+    padding-left: 0;
+    padding-right: 1.25rem;
+}
+
+.mad-pagination > li:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.25rem;
+}
+
+.mad-pricing-tables .mad-pricing-table-price:before {
+    left: auto;
+    right: 0;
+}
+
+.mad-pricing-tables.type-3 .mad-pricing-table-price:before {
+    display: inline-block;
+}
+
+.mad-pricing-tables.type-3.with-bg .mad-pricing-table .mad-wave {
+    margin-left: 0;
+    margin-right: -2rem;
+}
+
+.mad-progress-bar-indicator {
+    left: auto;
+    right: 0;
+}
+
+.mad-progress-bar-title::after {
+    right: auto;
+    left: 2rem;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled) .mad-tabs-nav > span:not(:last-child) {
+    margin-right: 0;
+    margin-left: 2.5rem;
+}
+
+.mad-tabs.mad-tabs--style-2 .mad-tabs-nav > span:not(:last-child) {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-tabs.mad-tabs--tour-sections .mad-tabs-nav {
+    margin-right: 0;
+    margin-left: -2px;
+}
+
+.mad-tabs.mad-tabs--tour-sections.mad-tabs--style-2 .mad-tabs-nav > span.mad-active a {
+    border-right-color: #ebe117;
+}
+
+.mad-tabs.mad-tabs--tour-sections.mad-tabs--style-2 .mad-tabs-nav > span.mad-active a {
+    border-left-color: transparent;
+}
+
+.mad-tabs.mad-tabs--tour-sections.mad-tabs--style-2 .mad-tabs-nav > span a {
+    border-radius: 0 1.5rem 1.5rem 0;
+}
+
+.mad-tabs.mad-tabs--tour-sections .mad-tabs-nav > span {
+    margin-left: 0!important;
+}
+
+.mad-tabs:not(.mad-tabs--unstyled).mad-tabs--style-2 .mad-tabs-container .mad-tab {
+    border-radius: 1.5rem 0 1.5rem 1.5rem;
+}
+
+.mad-team:not(.big-type) .mad-team-member .mad-team-member-info {
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+.mad-testimonials.type-2 .mad-testimonial {
+    padding-left: 0;
+    padding-right: 9.5rem;
+}
+
+.mad-testimonials.type-2 .mad-testimonial:before {
+    left: auto;
+    right: 0;
+}
+
+.mad-testimonials.type-2 .mad-testimonial .mad-author-img:not(:last-child) {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.mad-testimonials.type-2 .owl-carousel .owl-dots {
+    margin-left: 0;
+    margin-right: 9rem;
+}
+
+.mad-testimonials.with-img .mad-testimonial-img {
+    margin-right: 0;
+    margin-left: -11.5rem;
+}
+
+.mad-testimonials.with-img .mad-col:first-child .mad-testimonial-img {
+    margin-left: 0;
+    margin-right: -11.5rem;
+}
+
+.mad-testimonial-bg .mad-testimonial {
+    text-align: right;
+}
+
+.mad-popup-inner .arcticmodal-close {
+    right: auto;
+    left: 1.75rem;
+}
+
+[class*="btn"] > i {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-dropcap > *:first-child:first-letter {
+    float: right;
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-list--icon > li, .mad-entity-content ul:not(.mad-list--icon):not(.mad-list--unstyled) > li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-list--icon > li > .icon, .mad-entity-content ul:not(.mad-list--icon):not(.mad-list--unstyled) > li::before {
+    left: auto;
+    right: 1px;
+}
+
+input[type="checkbox"] + label[for], input[type="radio"] + label[for] {
+    padding-left: 0;
+    padding-right: 4rem;
+}
+
+input[type="checkbox"] + label[for]::before, 
+input[type="radio"] + label[for]::before {
+    left: auto;
+    right: 0;
+}
+
+input[type="checkbox"] + label[for]::after, 
+input[type="radio"] + label[for]::after {
+    left: auto;
+    right: 0;
+}
+
+input[type="radio"] + label[for]::after {
+    left: auto;
+    right: 1rem;
+}
+
+.mad-toggled-fields.hr-type > *:not(:last-child) {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.mad-entities.type-3.with-img.with-sidebar .mad-entity .mad-testimonials.type-2 .mad-testimonial {
+    padding-right: 0;
+}
+
+.mad-custom-select .mad-selected-option {
+    padding-right: 1.25rem;
+    padding-left: 3.75rem;
+}
+
+.mad-custom-select .mad-selected-option::after, 
+.mad-custom-select .mad-selected-option::before {
+    right: auto;
+    left: 0.875rem;
+}
+
+.mad-item-link.mad-dropdown-title span {
+    right: auto;
+    left: -0.5rem;
+}
+
+.mad-entities.type-2 .mad-entity .mad-entity-content {
+    padding: 4rem 4.5rem;
+}
+
+.mad-cta .row > *:last-child {
+    text-align: left;
+}
+
+/* -------------------- End of Shortcodes ---------------------*/
+
+/* -------------------- Content elements --------------------- */
+
+.shopping-cart {
+    text-align: right;
+}
+
+.mad-label {
+    left: 0.5rem;
+    right: auto;
+}
+
+.mad-products.mad-product-single .mad-product-calc .quantity {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-product-single .mad-product-info ul li span {
+    display: inline-block;
+}
+
+.rev-slider .mad-wave {
+    right: auto;
+    left: 0;
+}
+
+.mad-back-to-top {
+    right: auto;
+    left: 3.875rem;
+}
+
+.mad-hr-list ul li:not(:last-child):after{
+    right: auto;
+    left: 0;
+}
+
+.mad-hr-list ul li:not(:last-child) {
+    padding-right: 0;
+    padding-left: 0.9375rem;
+    margin-right: 0;
+    margin-left: 0.9375rem;
+}
+
+.mad-wave {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -4.375rem;
+}
+
+.mad-wave.type-2 {
+    right: auto;
+    left: 0;
+}
+
+.mad-wave.type-2 {
+    margin-right: 0;
+    margin-left: -4.375rem;
+}
+
+.mad-entities.type-2 .mad-wave {
+    margin-left: 0;
+    margin-right: -4.375rem;
+}
+
+.mad-entities.type-2 .mad-wave.style-2 {
+    margin-right: 0;
+    margin-left: -4.375rem;
+}
+
+.mad-dropdown-element.shopping-cart {
+    right: auto;
+    left: 0;
+    text-align: right;
+    margin-right: 0;
+    margin-left: -12.25rem;;
+}
+
+.mad-dropdown-element {
+    left: auto;
+    right: 0;
+}
+
+.mad-section-side-title {
+    left: auto;
+    right: 0;
+}
+
+.shopping-cart .subtotal span {
+    display: inline-block;
+}
+
+.row:not(.col-no-space) .mad-offset-left, .mad-offset-left {
+    padding-left: 0;
+    padding-right: 7.5rem;
+}
+
+.mad-section-side-title.right-side {
+    left: 0;
+    right: auto;
+}
+
+.row:not(.col-no-space) .mad-offset-right, .mad-offset-right {
+    padding-right: 0;
+    padding-left: 7.5rem;
+}
+
+.mad-icon-box .mad-icon-box-icon {
+    text-align: inherit;
+}
+
+.mad-icon-boxes.with-arrows .mad-col:not(:last-child) .mad-icon-box:after {
+    left: auto;
+    right: 90%;
+}
+
+.mad-icon-boxes.hr-type.with-backplate > .mad-col:not(:last-child) .mad-icon-box:after {
+    left: auto;
+    right: 100%;
+    transform: rotate(180deg);
+}
+
+.mad-entities:not(.mad-entity-small):not(.with-big-date):not(.type-2):not(.with-img) .mad-entity .mad-entity-content {
+    padding-right: 0;
+    padding-left: 2rem;
+}
+
+.mad-read-more {
+    margin-left: 1.5rem;
+    margin-right: 0;
+}
+
+.mad-read-more:not(.no-arrow):after {
+    right: auto;
+    left: -1.5rem;
+}
+
+.mad-read-more:not(.no-arrow):after {
+    transform: rotate(180deg);
+}
+
+.mad-pricing-tables:not(.type-2):not(.type-3) .mad-pt-text {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.mad-pricing-tables.type-3 .mad-pricing-table .mad-pt-icon {
+    text-align: inherit;
+}
+
+[class*="mad-section-icon"] {
+    left: auto;
+    right: -8.75rem;
+}
+
+.mad-section--stretched-content [class*="mad-section-icon"] {
+    margin-left: 0;
+    margin-right: -8px;
+}
+
+.mad-section--stretched-content [class*="mad-section-icon"].right-side {
+    left: auto;
+    right: 95%;
+}
+
+.mad-entities.type-3.with-big-date .mad-entity .mad-entity-body {
+    padding-left: 0;
+    padding-right: 7.5rem;
+}
+
+.mad-entities.type-3.with-big-date .mad-entity .mad-entity-date {
+    left: auto;
+    right: 0;
+}
+
+form.one-line .btn {
+    right: auto;
+    left: 0.5rem;
+}
+
+.mad-our-info li i {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-page-wrapper.with-side-menu .mad-section--stretched-content-no-px {
+    padding-left: 0;
+}
+
+.with-side-menu .mad-gallery .mad-gallery-item {
+    width: 25%;
+}
+
+.with-side-menu .mad-gallery .mad-gallery-item.x2 {
+    width: 50%;
+}
+
+.mad-event-date .mad-event-num {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-calc .btn:not(.with-text) {
+    margin-left: 0;
+    margin-right: -4px;
+}
+
+.videoPoster {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-spec-item figure {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.with-svg-item.svg-right-side {
+    left: 0;
+    right: auto;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.with-svg-item,
+.mad-tt-wrap:after {
+    left: auto;
+    right: 0;
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-section:not(.mad-colorizer--parallax) .mad-colorizer-bg-image {
+    -moz-transform: scale(-1, 1);
+    -webkit-transform: scale(-1, 1);
+    -o-transform: scale(-1, 1);
+    transform: scale(-1, 1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+}
+
+.mad-tag-list li span {
+    padding-right: 0;
+    padding-left: 8px;
+}
+
+[class*="btn"] > i:not(:only-child):first-child {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-timetable.with-icons li i {
+    left: auto;
+    right: 0;
+}
+
+.mad-timetable.with-icons li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-events-nav form input {
+    padding-left: 18.75rem;
+    padding-right: 1.25rem;
+}
+
+.mad-events-nav form > .mad-custom-select {
+    right: auto;
+    left: 0;
+}
+
+.mad-events-nav form > .mad-custom-select .mad-selected-option {
+    border-right: 0;
+    margin-left: 0;
+    margin-right: 1rem;
+    border-left: 2px solid #e5e5e6;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+}
+
+.mad-events.style-2 .mad-event:before,
+.mad-events.style-2 .mad-event:after {
+    left: auto;
+    right: 0;
+}
+
+.mad-event-menu .mad-dropdown-title > i {
+    margin-left: 0;
+    margin-right: 0.5rem;
+}
+
+.mad-event-arrows {
+    flex-direction: row-reverse;
+}
+
+.big-calendar.calendar_wrap table thead th, .big-calendar.calendar_wrap table tr td {
+    text-align: right;
+}
+
+.calendar_wrap.big-calendar .mad-abs-title .mad-event-title {
+    left: auto;
+    right: 0;
+    margin-left: 0;
+    margin-right: -1.5rem;
+}
+
+.mad-contact-form.mad-search input {
+    padding-right: 1.25rem;
+    padding-left: 3.5rem;
+}
+
+.mad-contact-form.mad-search button {
+    right: auto;
+    left: 1rem;
+}
+
+.mad-share-wrap > span {
+    margin-right: 0;
+    margin-left: 1.5rem;
+}
+
+.mad-entity .mad-testimonial blockquote:after {
+    left: auto;
+    right: -2.625rem;
+}
+
+.mad-widget .recentcomments li {
+    padding-left: 0;
+    padding-right: 2rem;
+}
+
+.mad-widget .recentcomments li:before {
+    left: auto;
+    right: 0;
+}
+
+.mad-entity-link-element > i {
+    left: auto;
+    right: 2rem;
+}
+
+.mad-pagination > li > a.next i {
+    content: 'keyboard_arrow_left';
+}
+
+.mad-entities.single-entity .mad-entity .mad-testimonials {
+    float: right;
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.tags-wrap > span {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+.mad-page-nav > .mad-nav-right {
+    text-align: left;
+}
+
+.comment-author-info {
+    padding-left: 0;
+    padding-right: 6.125rem;
+}
+
+.comment-author-avatar {
+    float: right;
+    margin-right: 0;
+    margin-left: 1.25rem;
+}
+
+.mad-tt-element {
+    background-position: top left;
+}
+
+.mad-read-more.no-icon {
+    margin: 0;
+}
+
+.mad-colorizer-bg-color > .mad-section-element {
+    right: auto;
+    left: 0;
+    border-radius: 0 1rem 1rem 0;
+}
+
+.mad-colorizer-bg-color > .mad-section-element.bottom-left {
+    left: auto;
+    right: 0;
+    border-radius: 1rem 0 0 1rem;
+}
+
+.mad-calc .quantity input {
+    border-radius: 0 0.5rem 0.5rem 0;
+} 
+
+.mad-event-btns > a:not(.btn) .svg:last-child {
+    margin-left: 0;
+    margin-right: 1rem;
+}
+
+.mad-event-btns > a:not(.btn) .svg:first-child {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-event-btns > a:not(.btn) .svg,
+.mad-pagination > li > .mad-arrows .svg {
+    transform: rotate(180deg);
+}
+
+.mad-page-nav {
+    direction: ltr;
+}
+
+.comment .children {
+    padding-left: 0;
+    padding-right: 2.5rem;
+}
+
+.nav-top .owl-nav {
+    right: auto;
+    left: 0;
+    flex-direction: row-reverse;
+}
+
+.mad-vr-list:not(.no-icons) ul li {
+    padding-left: 0;
+    padding-right: 1.5rem;
+}
+
+.mad-vr-list:not(.no-icons) ul li:before {
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+}
+
+.mad-our-info.vr-type .mad-info > i {
+    margin: 0;
+}
+
+.mad-modal--search form button {
+    right: auto;
+    left: 0.5rem;
+}
+
+.mad-modal--search .mad-title {
+    margin-right: 0;
+    margin-left: 2rem;
+}
+
+.arcticmodal-close {
+    right: auto;
+    left: 4rem;
+}
+
+.mad-spec-header .mad-spec-title .mad-label {
+    margin-left: 0;
+    margin-right: 0.75rem;
+}
+
+.toggle-section {
+    right: auto;
+    left: 0;
+}
+
+.mad-filter-list ul li .mad-filter-icon {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.toggle-section:after {
+    right: auto;
+    left: 2rem;
+}
+
+.image-preview-container.type-2 .mad-thumb-holer {
+    right: auto;
+    left: -305px;
+}
+
+.toggle-section.left-side {
+    left: auto;
+    right: 0;
+}
+
+.toggle-section.left-side:after {
+    left: auto;
+    right: 2rem;
+}
+
+.toggle-section-close {
+    right: auto;
+    left: 1.75rem;
+}
+
+.mad-order-item > .mad-order-img {
+    margin-right: 0;
+    margin-left: 1rem;
+}
+
+.mad-order-section {
+    padding-right: 0;
+    padding-left: 1rem;
+}
+
+.mad-entities.type-3.with-big-date.with-img .mad-entity .mad-entity-body {
+    margin-left: 0;
+    margin-right: 2rem;
+}
+
+@-moz-document url-prefix() {
+
+    .calendar_wrap table td > a::before {
+        margin-left: -1.3rem;
+    }
+
+    .calendar_wrap.big-calendar table td a::before {
+        margin-left: -2.3rem;
+    }
+
+}
+
+/* ----------------- End of Content elements ----------------- */
+
+/* ------------------------- Footer -------------------------- */
+
+.mad-footer.style-2 .copyrights,
+.mad-footer.style-4,
+.mad-footer.style-4 .copyrights {
+    text-align: right;
+}
+
+.calendar_wrap.big-calendar .mad-dropdown-element {
+    left: auto;
+    right: 100%;
+}
+
+.shopping-cart .mad-close-item {
+    right: auto;
+    left: 0;
+}
+
+.mad-event-info span.mad-event-sub i {
+    margin-right: 0;
+    margin-left: 4px;
+}
+
+.mad-events.style-2 .mad-event-date .mad-event-num {
+    margin-left: 0;
+}
+
+.mad-event-btns .btn i {
+    margin-right: 0;
+    margin-left: 0.5rem;
+}
+
+.mad-event-info .mad-event-sub a {
+    margin-left: 0;
+    margin-right: 0.25rem;
+}
+
+.mad-text-link .svg {
+    margin-right: 0;
+    margin-left: 0.75rem;
+}
+
+/* ------------------------- End of Footer -------------------------- */
+
+/* ------------------------------------------------
+
+        4. Media queries
+
+------------------------------------------------ */
+
+/* RESPONSIVE */
+
+@media only screen and (max-width:1480px){
+
+    .mad-footer.style-2 {
+		background-position: bottom -140px left!important;
+	}
+
+}
+
+@media only screen and (min-width:1480px){
+
+    .mad-page-wrapper.with-side-menu .mad-half-section-wrap .mad-half-section {
+        width: 50%!important;
+    }
+
+}
+
+@media only screen and (max-width:1280px){
+
+    .mad-col-full .mad-offset-right.no-space {
+        padding-right: 0!important;
+        padding-left: 7.5rem!important;
+    }
+
+}
+
+@media only screen and (min-width:1200px){
+
+    .mad-sidebar:before {
+        left: auto!important;
+        right: 0!important;
+    }
+
+}
+
+@media only screen and (min-width:1024px){
+
+    .ms-right {
+        right: auto!important;
+        left: 0!important;
+    }
+
+    .ms-left {
+        right: 0!important;
+        left: auto!important;
+    }
+
+}
+
+@media only screen and (max-width:992px){
+
+    .mad-icon-boxes.align-right {
+        text-align: right!important;
+    }
+
+    .arcticmodal-close {
+        left: 0.5rem;
+    }
+
+    .mad-col-full .mad-offset-right.no-space {
+        padding-left: 0!important;
+    }
+
+}
+
+@media (min-width: 992px){
+
+    .calendar_wrap.big-calendar .mad-dropdown-element.left-side {
+        right: auto!important;
+        left: 100%!important;
+    }
+
+}
+
+@media (max-width: 820px) and (min-width: 769px) {
+
+    .mad-navigation > li:not(.mega-menu):last-child > .sub-menu {
+        margin-right: -5.5rem!important;
+        margin-left: 0!important;
+    }
+
+}
+
+
+@media only screen and (min-width:768px){
+
+
+}
+
+@media (max-width: 769px){
+
+    .mad-navigation .sub-menu .menu-item-has-children::after {
+        right: auto!important;
+        left: 2rem!important;
+    }
+
+    .mad-header.style-2 .mad-header-section .mad-header-items.item-col-3 > *:first-child {
+        text-align: left!important;
+    }
+
+}
+
+@media only screen and (max-width: 480px){
+
+    .mad-back-to-top {
+        right: auto!important;
+        left: 1rem!important;
+    }
+
+}

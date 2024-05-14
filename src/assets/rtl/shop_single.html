@@ -1,0 +1,820 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!--================ Basic page needs ================-->
+    <title>Yummi | Single Product Page Without Sidebar</title>
+    <meta charset="UTF-8">
+    <meta name="author" content="">
+    <meta name="keywords" content="">
+    <meta name="description" content="">
+    <!--================ Mobile specific metas ================-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--================ Google web fonts ================-->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&amp;family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&amp;display=swap"
+      rel="stylesheet">
+    <!--================ Vendor CSS ================-->
+    <link rel="stylesheet" href="css/fontawesome-all.min.css">
+    <link
+      href="https://fonts.googleapis.com/css?family=Material+Icons%7CMaterial+Icons+Outlined%7CMaterial+Icons+Two+Tone%7CMaterial+Icons+Round%7CMaterial+Icons+Sharp"
+      rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/linearicons.css">
+    <link rel="stylesheet" href="vendors/fancybox/jquery.fancybox.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/arcticmodal/jquery.arcticmodal-0.3.css">
+    <!--================ Theme CSS ================-->
+    <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/rtl.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <!--================ Vendor JS ================-->
+  </head>
+  <body>
+    <div class="mad-preloader"></div>
+    <div id="mad-page-wrapper" class="mad-page-wrapper">
+      <!--================ Search Modal ================-->
+      <div class="mad-d-none">
+        <div id="search-modal" class="mad-modal mad-modal--search">
+          <button type="button" class="arcticmodal-close"><i class="material-icons">close</i></button>
+          <h4 class="mad-title">Search</h4>
+          <!--================ Search Form ================-->
+          <form role="search" method="get" class="mad-searchform">
+          <input type="text" name="s" placeholder="Type your keyword here">
+          <button type="submit" class="btn btn-style-3"><i class="material-icons">search</i></button>
+        </form>
+          <!--================ End of Search Form ================-->
+        </div>
+      </div>
+      <!--================ End of Search Modal ================-->
+      <!--================ Header ================-->
+      <header id="mad-header" class="mad-header">
+        <div class="mad-pre-header">
+          <div class="mad-our-info">
+            <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013</span></div>
+            <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+          </div>
+          <div class="mad-quick-links">
+            <a href="#">Gift Cards</a> <span>|</span> <a href="#">Track Your Order</a> <span>|</span> <a href="#">Login/Register</a>
+          </div>
+        </div>
+        <div class="mad-header-section--sticky-xl">
+          <div class="mad-header-items">
+            <div class="mad-header-item">
+              <a href="index.html" class="mad-logo"><img src="images/logo.png" alt=""></a>
+            </div>
+            <!--================ Navigation ================-->
+            <nav class="mad-navigation-container">
+              <ul class="mad-navigation mad-navigation--vertical-sm">
+                <li class="menu-item menu-item-has-children"><a href="#">Home</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="index.html">Main Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_2.html">Full Width Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_3.html">Center Menu Home</a>
+                    </li>
+                    <li class="menu-item"><a href="home_4.html">Lightweight Home</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Menu</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li><a href="menu_v1.html">Menu v1</a>
+                    </li>
+                    <li><a href="menu_v2.html">Menu v2</a>
+                    </li>
+                    <li><a href="menu_v3.html">Menu v3</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Pages</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="pages_about_v1.html">About v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_about_v2.html">About v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_open_table.html">Reservations Via Open Table</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_booking.html">Reservations Via Booked -
+                      Appointment Booking Plugin</a>
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Gallery</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li><a href="gallery_grid.html">Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_grid_full.html">Full Width Grid Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry.html">Masonry Gallery</a>
+                        </li>
+                        <li><a href="gallery_masonry_full.html">Full Width Masonry Gallery</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item"><a href="pages_order.html">Track Order</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v1.html">Contact v1</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_contact_v2.html">Contact v2</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_coming_soon.html">Coming Soon Page</a>
+                    </li>
+                    <li class="menu-item"><a href="pages_404.html">404 Page</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children mega-menu"><a href="#">Elements</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Elements <span class="no-title">1</span></a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_accordions_toggles.html">Accordions
+                            &amp; Toggles</a></li>
+                        <li class="menu-item"><a href="elements_alert_boxes_buttons.html">Alert Boxes
+                            &amp; Buttons</a></li>
+                        <li class="menu-item"><a href="elements_call_to_actions.html">Call to Actions</a></li>
+                        <li class="menu-item"><a href="elements_counters.html">Counters & Countdowns</a></li>
+                        <li class="menu-item"><a href="elements_icon_boxes.html">Icon With Text</a></li>
+                        <li class="menu-item"><a href="elements_image_boxes.html">Image With Text</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title no-title">Elements 2</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_pricing.html">Pricing Tables</a></li>
+                        <li class="menu-item"><a href="elements_tables.html">Tables & Progress Bars</a></li>
+                        <li class="menu-item"><a href="elements_tabs.html">Tabs & Tour Sections</a></li>
+                        <li class="menu-item"><a href="elements_team.html">Team Members & Awards</a></li>
+                        <li class="menu-item"><a href="elements_testimonials.html">Testimonials</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Typography</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="elements_dropcaps_blockquotes.html">Dropcaps
+                            &amp; Blockquotes</a></li>
+                        <li class="menu-item"><a href="elements_headings_and_paragraphs.html">Headings
+                            &amp; Paragraphs</a></li>
+                        <li class="menu-item"><a href="elements_highlights_tooltips_listings.html">Highlights, Tooltips and
+                            Listings</a></li>
+                        <li class="menu-item"><a href="../index.html">LTR Version</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Header Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Header v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Header v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Header v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Header v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#" class="sub-title">Footer Layouts</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="index.html">Footer v1</a></li>
+                        <li class="menu-item"><a href="home_2.html">Footer v2</a></li>
+                        <li class="menu-item"><a href="home_3.html">Footer v3</a></li>
+                        <li class="menu-item"><a href="home_4.html">Footer v4</a></li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children current-menu-item"><a href="#">Shop</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item"><a href="shop_front_sidebar.html">Shop With Right Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_front.html">Shop Without Sidebar</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_create.html">Create Your Own Pizza</a>
+                    </li>
+                    <li class="menu-item current-menu-item"><a href="shop_single.html">Single Product Page</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_checkout.html">Cart/Checkout</a>
+                    </li>
+                    <li class="menu-item"><a href="shop_account.html">My Account</a>
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+                <li class="menu-item menu-item-has-children"><a href="#">Blog</a>
+                  <!--================ Sub Menu ================-->
+                  <ul class="sub-menu">
+                    <li class="menu-item menu-item-has-children"><a href="#">Classic Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_classic_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_classic.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="blog_masonry.html">Masonry Blog</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_masonry_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_masonry.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                    <li class="menu-item menu-item-has-children"><a href="#">Single Blog Post</a>
+                      <!--================ Sub Menu ================-->
+                      <ul class="sub-menu">
+                        <li class="menu-item"><a href="blog_single_sidebar.html">With Right Sidebar</a>
+                        </li>
+                        <li class="menu-item"><a href="blog_single.html">Without Sidebar</a>
+                        </li>
+                      </ul>
+                      <!--================ End of Sub Menu ================-->
+                    </li>
+                  </ul>
+                  <!--================ End of Sub Menu ================-->
+                </li>
+              </ul>
+            </nav>
+            <!--================ End of Navigation ================-->
+            <div class="mad-header-item">
+              <div class="mad-our-info type-2">
+                <div class="mad-info">
+                  <i class="material-icons-outlined">call</i>
+                  <div class="mad-info-content">
+                    <span>Call us for ordering</span>
+                    <div class="mad-info-title">+1 800 559 6580</div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mad-header-item">
+              <div class="mad-actions">
+                <div class="mad-item">
+                  <a href="#" class="mad-item-link" data-arctic-modal="#search-modal"><i class="material-icons">search</i></a>
+                  <a href="#" class="mad-item-link"><i class="material-icons">person_outline</i></a>
+                  <div class="mad-dropdown">
+                    <a href="#" type="button" class="mad-item-link mad-dropdown-title"><i
+                        class="material-icons-outlined">shopping_cart</i><span class="quantity">3</span></a>
+                    <div class="shopping-cart mad-dropdown-element">
+                      <div class="mad-products mad-product-small">
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img1.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Chicken Burger</a></h6>
+                              <span class="mad-product-price">1 × $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img2.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Affogato</a></h6>
+                              <span class="mad-product-price">1 x $4.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                        <div class="mad-col">
+                          <!-- Product -->
+                          <div class="mad-product">
+                            <button class="mad-close-item"><i class="material-icons-outlined">cancel</i></button>
+                            <a href="#" class="mad-product-image">
+                              <img src="images/72x72_img3.jpg" alt="">
+                            </a>
+                            <!-- product-info -->
+                            <div class="mad-product-description">
+                              <h6 class="mad-product-title"><a href="#" class="mad-link">Conchiglia
+                              Verdura.</a></h6>
+                              <span class="mad-product-price">1 x $14.99</span>
+                            </div>
+                            <!--/ product-info -->
+                          </div>
+                          <!-- End of Product -->
+                        </div>
+                      </div>
+                      <div class="sc-footer">
+                        <div class="subtotal">Subtotal: <span class="mad-price">34.97</span></div>
+                        <a href="#" class="btn btn-small btn-style-3 w-100"><i class="material-icons">arrow_right_alt</i><span>Checkout</span></a>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="mad-item">
+                  <a href="#" class="btn btn-small"><span>Order Online</span></a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </header>
+      <!--================ End of Header ================-->
+      <!--================ Breadcrumb ================-->
+      <div class="mad-breadcrumb">
+        <div class="container">
+          <nav class="mad-breadcrumb-path"><span><a href="index.html">Home</a></span> / <span>Single Product Page Without Sidebar</span>
+          </nav>
+        </div>
+      </div>
+      <!--================ End of Breadcrumb ================-->
+      <div class="mad-content">
+        <div class="container">
+          <div class="content-element-13">
+            <div class="mad-product mad-product-single">
+              <div class="row">
+                <div class="col-xl-6">
+                  <div class="image-preview-container">
+                    <!-- - - - - - - - - - - - - - Image Preview Container - - - - - - - - - - - - - - - - -->
+                    <div class="image-preview">
+                      <a href="images/776x776_img1.jpg" data-zoom-image="images/776x776_img1.jpg" data-fancybox="group">
+                        <img id="zoom-image" src="images/776x776_img1.jpg" alt="">
+                      </a>
+                    </div>
+                    <!--/ .image-preview-->
+                    <div class="mad-thumb-holer">
+                      <!-- - - - - - - - - - - - - - Thumbnails - - - - - - - - - - - - - - - - -->
+                      <div class="mad-product-thumbs mad-grid mad-grid--cols-4 owl-carousel no-dots size-2" id="thumbnails">
+                        <div class="mad-grid-item">
+                          <a class="active" href="#" data-image="images/776x776_img1.jpg" data-zoom-image="images/776x776_img1.jpg">
+                            <img src="images/170x168_img1.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="mad-grid-item">
+                          <a href="#" data-image="images/776x776_img2.jpg" data-zoom-image="images/776x776_img2.jpg">
+                            <img src="images/170x168_img2.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="mad-grid-item">
+                          <a href="#" data-image="images/776x776_img3.jpg" data-zoom-image="images/776x776_img3.jpg">
+                            <img src="images/170x168_img3.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="mad-grid-item">
+                          <a href="#" data-image="images/776x776_img4.jpg" data-zoom-image="images/776x776_img4.jpg">
+                            <img src="images/170x168_img4.jpg" alt="">
+                          </a>
+                        </div>
+                        <div class="mad-grid-item">
+                          <a class="active" href="#" data-image="images/776x776_img1.jpg" data-zoom-image="images/776x776_img1.jpg">
+                            <img src="images/170x168_img1.jpg" alt="">
+                          </a>
+                        </div>
+                      </div>
+                      <!-- - - - - - - - - - - - - - End of Thumbnails - - - - - - - - - - - - - - - - -->
+                    </div>
+                    <!-- - - - - - - - - - - - - - End of Image Preview Container - - - - - - - - - - - - - - - - -->
+                  </div>
+                </div>
+                <div class="col-xl-6">
+                  <h2 class="mad-product-title">Pizza Margherita <div class="mad-label"><img class="svg" src="yummi_svg_icons/carrot.svg" alt=""></div></h2>
+                  <p>Aliquam erat volutpat. Duis ac turpis. Donec sit amet eros. Lorem ipsum dolor sit amet, consectetuer adipiscing elit.
+                  Mauris fermentum dictum magna. Sed laoreet aliquam leo. Ut tellus dolor, dapibus eget, elementum vel, cursus eleifend,
+                  elit. Aenean auctor wisi et urna. Aliquam erat volutpat.</p>
+                  <div class="mad-product-calc">
+                    <span class="mad-product-price">9.99</span>
+                  </div>
+                  <div class="form-control content-element-6">
+                    <div class="content-element-2">
+                      <p class="mad-text-color-2 content-element">Base Size:</p>
+                      <div class="mad-toggled-fields hr-type">
+                        <input type="radio" name="radio-1" id="radio-1" checked="checked">
+                        <label for="radio-1" class="mad-label-radio">Small</label>
+                        <input type="radio" name="radio-1" id="radio-2">
+                        <label for="radio-2" class="mad-label-radio">Large</label>
+                      </div>
+                    </div>
+                    <div class="content-element-2">
+                      <p class="mad-text-color-2 content-element">Quantity:</p>
+                      <div class="btn-set big-btns">
+                        <div class="quantity size-2">
+                          <input type="text" value="1" readonly="">
+                          <button type="button" class="qty-plus"><i class="licon-plus"></i></button>
+                          <button type="button" class="qty-minus"><i class="licon-minus"></i></button>
+                        </div>
+                        <a href="#" class="btn btn-big btn-style-3"><i class="material-icons-outlined">shopping_cart</i><span>Add to
+                            Cart</span></a>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="content-element-6">
+                    <!--================ Tabs ================-->
+                    <div class="mad-tabs">
+                      <!--================ Tabs Navigation ================-->
+                      <div role="tablist" aria-label="Tabs v1" class="mad-tabs-nav">
+                        <span class="mad-active"><a id="tab-1-link" href="#tab-1" role="tab" aria-selected="false" aria-controls="tab-1"
+                            class="mad-tab-link">Ingredients</a>
+                        </span>
+                        <span><a id="tab-2-link" href="#tab-2" role="tab" aria-selected="true" aria-controls="tab-2"
+                            class="mad-tab-link">Portion Size</a>
+                        </span>
+                        <span><a id="tab-3-link" href="#tab-3" role="tab" aria-selected="false" aria-controls="tab-3"
+                            class="mad-tab-link">Nutritional</a>
+                        </span>
+                      </div>
+                      <!--================ End of Tabs Navigation ================-->
+                      <!--================ Tabs Container ================-->
+                      <div class="mad-tabs-container">
+                        <!--================ Tab ================-->
+                        <div id="tab-1" tabindex="0" role="tabpanel" aria-labelledby="tab-1-link" class="mad-tab">
+                          <p>Italian tomato sauce, mozzarella, fresh basil, parmesan cheese, olive oil</p>
+                        </div>
+                        <!--================ End of Tab ================-->
+                        <!--================ Tab ================-->
+                        <div id="tab-2" tabindex="0" role="tabpanel" aria-labelledby="tab-2-link" class="mad-tab">
+                          <p>1240 g, 8 pieces</p>
+                        </div>
+                        <!--================ End of Tab ================-->
+                        <!--================ Tab ================-->
+                        <div id="tab-3" tabindex="0" role="tabpanel" aria-labelledby="tab-3-link" class="mad-tab">
+                          <ul>
+                            <li><span class="mad-text-color-2">Calories: </span>420 kcal</li>
+                            <li><span class="mad-text-color-2">Cholesterol: </span>45 mg</li>
+                            <li><span class="mad-text-color-2">Fiber: </span>7g</li>
+                            <li><span class="mad-text-color-2">Sodium: </span>55g</li>
+                            <li><span class="mad-text-color-2">Carbohydrates: </span>40g</li>
+                            <li><span class="mad-text-color-2">Fat: </span>5g</li>
+                            <li><span class="mad-text-color-2">Protein: </span>46g</li>
+                          </ul>
+                        </div>
+                        <!--================ End of Tab ================-->
+                      </div>
+                      <!--================ End of Tabs Container ================-->
+                    </div>
+                    <!--================ End of Tabs ================-->
+                  </div>
+                </div>
+              </div>
+              <div class="mad-shop-footer">
+                <div class="mad-share-wrap"><span>Share:</span>
+                  <div class="mad-social-icons style-2 size-small">
+                    <ul>
+                      <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                      <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                      <li><a href="#"><i class="fab fa-tumblr"></i></a></li>
+                      <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="mad-page-nav mad-products mad-product-small">
+              <div class="mad-nav-left">
+                <div class="mad-product">
+                  <a href="#" class="mad-product-image">
+                    <img src="images/88x88_img12.jpg" alt="">
+                  </a>
+                  <!-- product-info -->
+                  <div class="mad-product-description">
+                    <h6 class="mad-product-title"><a href="#" class="mad-link">Conchiglia Verdura</a></h6>
+                    <p>Giant pasta shells stuffed with <br> spinach, ricotta, parmesan, ...</p>
+                    <div class="mad-product-calc">
+                      <span class="mad-product-price">14.99</span>
+                    </div>
+                  </div>
+                  <!--/ product-info -->
+                </div>
+              </div>
+              <div class="mad-nav-right">
+                <div class="mad-product">
+                  <!-- product-info -->
+                  <div class="mad-product-description">
+                    <h6 class="mad-product-title"><a href="#" class="mad-link">Egg Burger</a></h6>
+                    <p>100% beef topped with our <br> sauce, bacon, egg, ...</p>
+                    <div class="mad-product-calc">
+                      <span class="mad-product-price">12.99</span>
+                    </div>
+                  </div>
+                  <!--/ product-info -->
+                  <a href="#" class="mad-product-image">
+                    <img src="images/88x88_img18.jpg" alt="">
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="content-element-13">
+            <h3 class="mad-page-title">You May Also Like…</h3>
+            <div class="mad-products item-col-4">
+              <div class="mad-col">
+                <!-- Product -->
+                <div class="mad-product">
+                  <figure class="mad-product-image">
+                    <div class="mad-label"><img class="svg" src="yummi_svg_icons/carrot.svg" alt=""></div>
+                    <a href="#"><img src="images/254x256_img9.jpg" alt=""></a>
+                  </figure>
+                  <!-- product-desc -->
+                  <div class="mad-product-description">
+                    <h4 class="mad-product-title"><a href="#" class="mad-link">Dolce Della Casa</a></h4>
+                    <p>Doughnuts stuffed with hazelnut chocolate then covered in cinnamon and sugar. Serving contain ...</p>
+                  </div>
+                  <!--/ product-desc -->
+                  <div class="mad-product-calc">
+                    <span class="mad-product-price">3.99</span>
+                    <a href="#" class="btn btn-style-3 btn-small">Select Options</a>
+                  </div>
+                </div>
+                <!-- End of Product -->
+              </div>
+              <div class="mad-col">
+                <!-- Product -->
+                <div class="mad-product">
+                  <figure class="mad-product-image">
+                    <a href="#"><img src="images/254x256_img10.jpg" alt=""></a>
+                  </figure>
+                  <!-- product-desc -->
+                  <div class="mad-product-description">
+                    <h4 class="mad-product-title"><a href="#" class="mad-link">Lager Beer</a></h4>
+                    <p>Premium quality lager beer, 330 ml</p>
+                  </div>
+                  <!--/ product-desc -->
+                  <div class="mad-product-calc">
+                    <span class="mad-product-price">4.99</span>
+                    <a href="#" class="btn btn-style-3 btn-small">Select Options</a>
+                  </div>
+                </div>
+                <!-- End of Product -->
+              </div>
+              <div class="mad-col">
+                <!-- Product -->
+                <div class="mad-product">
+                  <figure class="mad-product-image">
+                    <div class="mad-label yellow"><img class="svg" src="yummi_svg_icons/gluten_free.svg" alt=""></div>
+                    <a href="#"><img src="images/254x256_img11.jpg" alt=""></a>
+                  </figure>
+                  <!-- product-desc -->
+                  <div class="mad-product-description">
+                    <h4 class="mad-product-title"><a href="#" class="mad-link">Gluten Free Burger</a></h4>
+                    <p>100% beef topped with our homemade sauce, lettuce, tomato & Cheddar cheese. Gluten free bun.</p>
+                  </div>
+                  <!--/ product-desc -->
+                  <div class="mad-product-calc">
+                    <span class="mad-product-price">17.99</span>
+                    <a href="#" class="btn btn-style-3 btn-small">Select Options</a>
+                  </div>
+                </div>
+                <!-- End of Product -->
+              </div>
+              <div class="mad-col">
+                <!-- Product -->
+                <div class="mad-product">
+                  <figure class="mad-product-image">
+                    <a href="#"><img src="images/264x264_img9.jpg" alt=""></a>
+                  </figure>
+                  <!-- product-desc -->
+                  <div class="mad-product-description">
+                    <h4 class="mad-product-title"><a href="#" class="mad-link">Lasagna</a></h4>
+                    <p>100% beef topped with our homemade sauce, lettuce, tomato & Cheddar cheese. Gluten free bun.</p>
+                  </div>
+                  <!--/ product-desc -->
+                  <div class="mad-product-calc">
+                    <span class="mad-product-price">15.99</span>
+                    <a href="#" class="btn btn-style-3 btn-small">Select Options</a>
+                  </div>
+                </div>
+                <!-- End of Product -->
+              </div>
+            </div>
+          </div>
+          <div class="content-element-13">
+            <h3>Comments</h3>
+            <ol class="comments-list">
+              <li class="comment comment-has-children">
+                <div class="comment-body clearfix">
+                  <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo1.jpg" alt="Caroline Beek"></a></div>
+                  <div class="comment-author-info">
+                    <cite class="fn">Caroline Beek</cite>
+                    <div class="comment-meta">
+                      <time datetime="2021-10-17">October 17, 2021 at 2:41 pm</time>
+                      <a href="#" class="mad-text-link"><i class="material-icons">reply</i> Reply</a>
+                    </div>
+                    <div class="comment-content">
+                      <p>Sed in lacus ut enim adipiscing aliquet. Nulla venenatis. In pede mi, aliquet sit amet, euismod in,
+                        auctor ut, ligula.
+                        Aliquam dapibus tincidunt metus. Praesent justo dolor, lobortis. </p>
+                    </div>
+                  </div>
+                </div>
+                <ul class="children">
+                  <li class="comment">
+                    <div class="comment-body">
+                      <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo2.jpg" alt="Admin"></a></div>
+                      <div class="comment-author-info">
+                        <cite class="fn">Admin</cite>
+                        <div class="comment-meta mad-columns-aligner--edges-md align-items-center">
+                          <time datetime="2021-10-17">October 17, 2020 at 2:41 pm</time><a href="#"
+                            class="mad-text-link color-2"><i class="material-icons">reply</i> Reply</a>
+                        </div>
+                        <div class="comment-content">
+                          <p>Vestibulum sed ante. Donec sagittis euismod purus.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </li>
+                </ul>
+              </li>
+              <li class="comment">
+                <div class="comment-body">
+                  <div class="comment-author-avatar"><a href="#"><img src="images/80x80_photo3.jpg" alt="Bred Anderson"></a></div>
+                  <div class="comment-author-info">
+                    <cite class="fn">Bred Anderson</cite>
+                    <div class="comment-meta mad-columns-aligner--edges-md align-items-center">
+                      <time datetime="2021-10-21">October 21, 2020 at 2:41 pm</time><a href="#" class="mad-text-link color-2"><i
+                          class="material-icons">reply</i> Reply</a>
+                    </div>
+                    <div class="comment-content">
+                      <p>Donec sagittis euismod purus. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque
+                        laudantium, totam rem aperiam,eaque ipsa quae ab illo inventore.</p>
+                    </div>
+                  </div>
+                </div>
+              </li>
+            </ol>
+          </div>
+          <div class="content-element-13">
+            <h3>Leave a Reply</h3>
+            <p>Your email address will not be published.</p>
+            <form class="mad-contact-form type-2">
+              <div class="content-element-2">
+                <div class="row hr-size-1 vr-size-1">
+                  <div class="col-sm-6">
+                    <div class="mad-col">
+                      <textarea rows="5" placeholder="Message"></textarea>
+                    </div>
+                    <div class="mad-col">
+                      <input type="text" placeholder="Name">
+                    </div>
+                  </div>
+                  <div class="col-sm-6">
+                    <div class="mad-col">
+                      <input type="email" placeholder="Email Address">
+                    </div>
+                    <div class="mad-col">
+                      <input type="text" placeholder="Website (optional)">
+                    </div>
+                    <div class="mad-col">
+                      <div style="display: block;" class="mad-toggled-fields">
+                        <input type="checkbox" name="checkbox-1" id="checkbox-1">
+                        <label for="checkbox-1" class="mad-label-checkbox">Save my name, email, and website in this browser for the
+                          next
+                          time I comment.</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="align-right">
+                <button class="btn btn-big btn-style-3">Submit</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <!--================ Footer ================-->
+      <footer id="mad-footer" class="mad-footer">
+        <!--================ Footer row ================-->
+        <div class="mad-footer-main">
+          <div class="container">
+            <div class="row">
+              <div class="col-xl-6 col-lg-4 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <div class="content-element-5">
+                    <a href="#" class="mad-logo"><img src="images/logo2.png" alt=""></a>
+                  </div>
+                  <div class="mad-our-info vr-type">
+                    <div class="mad-info"><i class="material-icons-outlined">location_on</i> <span>8901 Marmora Road, New York, NY 10013 <br> <a href="#" class="mad-link mad-dir">Get Directions</a></span></div>
+                    <div class="mad-info"><i class="material-icons-outlined">call</i> <span>+1 800 559 6580</span></div>
+                    <div class="mad-info"><i class="material-icons">mail_outline</i> <a href="#" class="mad-link">mail@companyname.com</a></div>
+                    <div class="mad-info"><i class="material-icons">access_time</i> <span>Mon - Fri: 8am - 11pm, Sat - Sun: 8am - 12pm</span></div>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-2 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Menu</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">Pizza</a></li>
+                      <li><a href="#" class="mad-link">Pasta</a></li>
+                      <li><a href="#" class="mad-link">Burgers</a></li>
+                      <li><a href="#" class="mad-link">Sides</a></li>
+                      <li><a href="#" class="mad-link">Desserts</a></li>
+                      <li><a href="#" class="mad-link">Drinks</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Company</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">About</a></li>
+                      <li><a href="#" class="mad-link">The Menu</a></li>
+                      <li><a href="#" class="mad-link">Testimonials</a></li>
+                      <li><a href="#" class="mad-link">Blog</a></li>
+                      <li><a href="#" class="mad-link">Shop</a></li>
+                      <li><a href="#" class="mad-link">Gift Cards</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+              <div class="col-xl-2 col-lg-3 col-md-6">
+                <!--================ Widget ================-->
+                <section class="mad-widget">
+                  <h5 class="mad-widget-title">Support</h5>
+                  <div class="mad-vr-list">
+                    <ul>
+                      <li><a href="#" class="mad-link">How to Order</a></li>
+                      <li><a href="#" class="mad-link">Where We Deliver</a></li>
+                      <li><a href="#" class="mad-link">FAQs</a></li>
+                      <li><a href="#" class="mad-link">Contact</a></li>
+                      <li><a href="#" class="mad-link">Terms and Contiotions</a></li>
+                      <li><a href="#" class="mad-link">Privacy Policy</a></li>
+                    </ul>
+                  </div>
+                </section>
+                <!--================ End of Widget ================-->
+              </div>
+            </div>
+          </div>
+        </div>
+        <!--================ End of Footer row ================-->
+        <div class="mad-footer-bottom">
+          <div class="container">
+            <p class="copyrights">Copyright © 2021 Yummi.
+              All Rights Reserved.</p>
+            <div class="mad-social-icons">
+              <ul>
+                <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                <li><a href="#"><i class="fab fa-tripadvisor"></i></a></li>
+                <li><a href="#"><i class="fab fa-youtube"></i></a></li>
+                <li><a href="#"><i class="fab fa-pinterest-p"></i></a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </footer>
+      <!--================ End of Footer ================-->
+    </div>
+    <script src="vendors/modernizr.js"></script>
+    <script src="vendors/jquery-3.3.1.min.js"></script>
+    <script src="vendors/jquery.easing.1.3.min.js"></script>
+    <script src="vendors/jquery.parallax-1.1.3.min.js"></script>
+    <script src="vendors/monkeysan.jquery.nav.1.0.min.js"></script>
+    <script src="vendors/monkeysan.validator.min.js"></script>
+    <script src="vendors/handlebars-v4.0.5.min.js"></script>
+    <script src="vendors/mad.customselect.js"></script>
+    <script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+    <script src="vendors/jquery-ui/jquery-ui.min.js"></script>
+    <script src="vendors/fancybox/jquery.fancybox.min.js"></script>
+    <script src="vendors/elevatezoom.min.js"></script>
+    <script src="vendors/monkeysan.tabs.min.js"></script>
+    <script src="vendors/tweetie/tweetie.min.js"></script>
+    <script src="vendors/arcticmodal/jquery.arcticmodal-0.3.min.js"></script>
+    <script src="vendors/retina.min.js"></script>
+    <script src="js/modules/mad.alert-box.min.js"></script>
+    <script src="js/modules/mad.newsletter-form.min.js"></script>
+    <script src="js/modules/mad.sticky-header-section.min.js"></script>
+    <script src="js/mad.app.js"></script>
+  </body>
+</html>
